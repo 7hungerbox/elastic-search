@@ -1,0 +1,98 @@
+Question/Request,Response,Additional Information
+"What kinds of ZS data will you be having access to? 
+Please list out data types, to the best of your knowledge.",One unique user ID (Can be employee ID or email ID or phone no) as required by ZS team,
+"At which data colocation center will ZS data be physically residing? Kindly specify the following with corresponding country, state/province -
+Primary data center (live): 
+Secondary data center (backup): 
+
+Will ZS data be physically residing within US only or ourtside US too?","AWS, Mumbai region",
+"What appliance/solution do you use to replicate data between your primary and secondary data centers (e.g.EMC Legato Networker, Dell NetVault)? Note: if this is performed by your collocation data centers, please reach out to them for a response.",,
+"In case of a disaster at your primary data center, what is your RTO and RPO? Note: if this is performed by your collocation data centers, please reach out to them for a response.",,
+"ZS conducts comprehensive DR testing exercises on an annual basis. If ZS data were to be hosted on your cloud solution, how would you plan to assist ZS with its DR testing initiatives? Would you be able to provide ZS with a copy of your own DR test exercises showing that you meet the RTO and RPO objectives you have promised ZS? At least once annually? Please provide details of evidence you will provide to ZS.",,
+How will access authentication occur? Single Sign On/Federated Identity?,SSO,
+"Please describe in detail, how you plan to protect data (e.g. encryption) at rest (in use), in transit (e.g. electronically via email or through access of a web portal over the internet) and in storage (e.g. off site) so that data is unreadable to anyone except authorized users.
+
+Please specify the encryption strength of -
+Data at rest (live):
+Data at rest (backup): 
+In transit: ","All information should be protected at rest. The storage medium should be encrypted with AES-256.
+When encrypting the media is not possible the data files should be encrypted with AES-256 and
+stored.
+
+Sensitive information should be protected with AES-256 in transit either physically or electronically.
+If there is a business justification to transmit information over Email or internet then this should be
+done over encrypted channel using either AES, SSL, IPSec.
+
+Backups or copies of sensitive information should be kept securely to prevent unauthorized access.
+• Copies of sensitive information should be encrypted with AES-256.
+• Restoration of encrypted copies must be kept on encrypted storage medium.
+• Steps must be taken to prevent unauthorized access to backups and snapshots of sensitive
+medium.
+• Access to the backup should be allowed only for restoration purpose required as a part of
+disaster recovery, audits or relevant business requirements.",
+"If ZS would use your services, will a contract be signed with you or any other vendor partners you work with? Will those partners have access to touch (even if read only) ZS data?","Yes, a contract will be signed between ZS and HB. No third party vendor is involved. HB does not share data with any third party vendor.",
+"In case of extreme emergencies, such as a weather related disaster or a pandemic situation, would you or your vendor partners (located outside the US), be granted access to ZS data located in the US? If so, please provide details of when such access would occur, where such personnel would be located, and what security applies to such access.",,
+"Do you have a Binding Corporate Rule (BCR) for processor? Does it cover the services being rendered to ZS? If yes, can you provide us the evidence",,
+"In absence of a BCR for processor or if it does not cover the services in scope, are you ready to enter into a Model Clause Agreement?",,
+Do you have Privacy shield in place?,,
+How would you notify ZS should there be a data breach involving ZS information?,,
+Has your company suffered a data loss or security breach within the last 3 years?,,
+"Please identify and describe any known security vulnerabilities in the 
+software applications.",,
+"ZS personnel often work with data that may contain American Medical Association (AMA) data. Such data has the following additional requirements
+",,
+"Are firewalls used to prevent any network traffic into your private network ? Does the firewall include at least one physical or virtual Internet Protocol packet filter, Application Control filter, or Host Intrusion Prevention/Host Firewall filter technology placed to inspect and, if necessary, block communications between external hosts and the host system where the ZS data is stored.",,
+Do you maintain firewall activity logs for audit purposes?,,
+Are you using an IDS to protect systems and servers on which ZS data would be present?,,
+"Are you logging and analyzing  transmission Web application connections for intrusion detection?
+",,
+Do you have access control and/or filtering to prevent the access of ZS data from wireless local area networks?,,
+"Are you logging and analyzing wireless network connections and performing one of the following: regular scans for rogue access points or using wireless IDS
+",,
+"Please provide a copy of your password policy.
+Ensure that password expired every 90 days, and that passwrd are encrypted stored or transmitted.",,
+"Would you be able to maintain log history information for all access to ZS data, servers or areas that are accessible through a modem, VPN, the Internet or any other electronic method maintainefor a minimum of 6 months? 
+
+Would it contain the date and time of access, the username and the IP address of the party accessing the logged area? (Such log components need to be made available to AMA upon written request if Cloud Hosting Provider’s security has been breached)",,
+"Do you perform a SOC2, Type II  attestation (must cover the prior calendar twelve (12)-month period) of your own environment annually? Does it minimally addresses Security, Confidentiality and Availability principles? If yes, please send us a copy of the audit report for your own environment.
+** If the attestation control period is less than 12 calendar month, would you be able to assure a subsequent audit period covering 12 calendar month ?**
+
+",,
+"Do you perform a ISO 27001 attestation (must cover the prior calendar twelve (12)-month period) of your own environment annually? If yes, please send us a copy of the audit report for your own environment.
+** If the attestation control period is less than 12 calendar month, would you be able to assure a subsequent audit period covering 12 calendar month?**
+",Yes. ISO 27001 certificate attached,
+"Do your data sub processors (e.g. collocation data centers you will use for the purposes of this engagement) perform a SOC2, Type II attestation of their environments annually? If yes, please arrange to send us a copy of their SOC2  audit reports",Yes. SOC2 report attached,
+"Have you completed the Cloud Security Alliance (CSA) Consensus Assessments Initative Questionnaire? If so, please send us a copy of this questionnaire",,
+"In addition to SOC2 Type II and/or  ISO 27001,is there any other third party audit performed on your environment ? If yes, can you please list it out and send us the copy of the audit report?","Yes. VAPT tests have been performed on our Android, IOS and web platforms",
+"Does ZS have your permission to share the ISO 27001 certification, SOC 2 audit, Cloud Security Alliance Consensus Assessments Initiative Questionnaire and/or your responses to this Vendor Privacy, Security
+ and Business Continuity Risk Assessment template with the American Medical Association (AMA)?",,
+"Does your encryption technology that encodes transmission of the ZS data as it passes through telecommunications and internal networks  and  that is digitally stored on Cloud Hosting Provider systems, devices and backup tapes or DVDs comply with NIST Federal Information Processing standard (symmetric key: AES 128, AES 256 bit and Asymmetric key: RSA, DSA) Please document which encryption strength you use (e.g. AES 256)",AES 256,
+Is two factor authentication required for all remote administration and support access to Cloud Hosting Provider systems,Yes,
+Is the acess to Cloud Hosting Provider systems restricted to authorized users?,Yes,
+Does the individual have unique assigned user IDs and passwords to gain access to any system housing the ZS data?,Yes,
+"Does transmission of the ZS data software support the latest version of the Transport Layer Security (TLS) standard or Secure Socket Layer ('SSL"") or other encryption technologies which meet NIST FIPS 140-2 standards to ensure a secured connection",,
+Do you monitor network events on a continuous basis?,Yes,
+Is there a separate physical or logical segmentation of data repository containing ZS data,,
+"Please provide maintenance of physical security measures at all Cloud Hosting Provider data center locations which include, but are not limited to, simple locks, and electronic access verification (card readers and proximity detectors), electronic and direct surveillance, spatial isolation (hard partitions, disparate buildings, etc.), securing the entrances to all data center facilities by monitored electronic key and by electronic and direct surveillance and spatial isolation (hard partitions, disparate buildings, etc.)",,
+"Please provide data and physical media destruction policy or procedures  which  provide that, before retirement, disposal, destruction or re-use, all hard drives and magnetic media containing ZS data must be sanitized using a verified 3-pass overwriting process that meets or exceeds DOD 5220.22M or NIST 800-88 standards.  Drives and other media that cannot be effectively sanitized using the verified 3-pass process, or that are designated for retirement, disposal or destruction, shall be shredded, disintegrated, incinerated, pulverized, or melted.",,
+"Do you have a written, company-wide application security program? If yes, please share application security program document?
+",Yes. PFA application security policy,
+Does your application security program include ensuring that your systems are coded in a secure manner that at a minimum addresses the current OWASP Top Ten vulnerabilities?,,
+Is it protected behind a web application firewall?,,
+"Do you have a written, company-wide vulnerability management program? Does it include ensuring that operating systems, databases, web servers and applications are routinely patched? (Extreme risk vulnerabilities should be patched as quickly as reasonably possible). 
+",,
+"Does your vulnerability management program include performing routine checks of network, servers and applications to verify completeness of the patching and vulnerability management process?
+",,
+"Do you restrict administrative privileges to operating systems and applications based on user duties? If so, do administrative privileged users use different credentials to login to windows/OS account?",,
+Do you have system integrity monitoring or control of unplanned changes?,,
+"For all systems that store ZS data or that access such ZS data, do you ensure that such systems are running current, industry standard anti-virus software including updated virus data sets, responding to virus attacks and initiating corrective action to eliminate detected viruses? Do you and you subcontractors maintain current anti-virus products with updated virus data definitions and data sets for supported platforms, respond to virus attacks and initiate corrective action to eliminate detected viruses?",,
+"Does your organization have security policies and procedures which require implementation of physical, technical and administrative safeguards in accordance with the requirements of the HIPAA Security Rule?",,
+Have those policies been implemented?,,
+Have you provided HIPAA security rule and privacy rule training to relevant personnel? What was the content of the training?,,
+Has a risk assessment of your information systems been performed?,,
+"If yes, was that risk assessment performed in accordance with the HIPAA Security Rule?",,
+Was the risk assessment performed internally or by a third party?,,
+When was the risk assessment performed?,,
+"Please provide a copy of the risk assessment report. If you cannot provide a detailed risk assessment report, please provide a summary of the report. If you cannot provide a summary report either, please explain in detail, the basis of your claim that you are ""HIPAA compliant."" What do you mean by that term?",,
+"Since the performance of the risk assessment, have there been any material changes to your information systems that could affect the confidentiality, integrity or security of the system or the information that it processes?",,
+All of the information provided by you is accurate and represents the current state of the services being offered,,

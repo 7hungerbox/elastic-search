@@ -1,0 +1,190 @@
+Questions,Answers,Justify Answers Below,Tags
+Are physical devices and systems within the organization inventoried?,Fully Compliant,,Asset Management
+Are software platforms and applications within the organization inventoried?,Fully Compliant,,Asset Management
+Are cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g. suppliers. customers. partners) established?,Fully Compliant,,Asset Management
+Business Environment,,,Asset Management
+How is the facility physically secured?,Fully Compliant,All of our systems/ data is kept inside AWS facility which is SOC2 /ISO compliant,Asset Management
+How is the facility environmentally controlled?,Fully Compliant,All of our systems/ data is kept inside AWS facility which is SOC2 /ISO compliant,Asset Management
+Do you have a documented risk management program?,Fully Compliant,Yes,Asset Management
+Risk Assessment,,,Asset Management
+Does the program have a  process for conducting risk assessments?,Fully Compliant,Yes,Asset Management
+Have you had independent penetration testing done?,Fully Compliant,Yes,Asset Management
+Are internal and external threats identified and documented?,Fully Compliant,Yes,Asset Management
+"Please provide the number of Critical, High and Medium findings.",Fully Compliant,Our Current VAPT is attached. No High/Critical finding are found,Asset Management
+"Please provide the number of Critical, High and Medium findings remediated.",Fully Compliant,Our Current VAPT is attached. No High/Critical finding are found,Asset Management
+Risk Management Strategy,,,Asset Management
+Do you have a vuln mgmt program in place,,,Asset Management
+Do you have vulnerability scans done?,Fully Compliant,Our Current VAPT is attached. No High/Critical finding are found,Asset Management
+"Please provide the number of Critical, High and Medium findings.",Fully Compliant,Our Current VAPT is attached. No High/Critical finding are found,Asset Management
+"Please provide the number of Critical, High and Medium findings remediated.",Fully Compliant,,Asset Management
+"Do we have the right to run periodic, coordinated vulnerability scans against your application?",Fully Compliant,Yes. We can provide you seperate environment to run these tests. HB team needs to be informed of timing and durtion of the tests,Asset Management
+Are suppliers and third-party partners routinely assessed using audits to meet their contractual obligations?,Fully Compliant,We do not use any partner to manage our services.,Asset Management
+Will we have access to relevant system data and logs?,Fully Compliant,"Yes, Based on discussion relevant logs can be provided",Asset Management
+Are response and recovery planning and testing conducted with suppliers and third-party providers?,Fully Compliant,N/A,Asset Management
+"Identity Management, Authentication and Access Control",,,Asset Management
+Who is authorized to access the application 7-11 is using,Fully Compliant,Selected set of HB employees will have access to selected non PII client data,Asset Management
+Is physical access to assets managed and protected?,Fully Compliant,We do not have physical access of assets for any of our employees.,Asset Management
+Is 7-11 consulted before access is granted to our data?,Fully Compliant,Any changes in ownership on HB side will be updated to client's team,Asset Management
+How many of your employees will have administrative access to Company data?,Fully Compliant,None of HB users will have access to PII Data. Rest of the data access be decided and updated based on site launch accordingly,Asset Management
+SAML???,Fully Compliant,We can do SAML/SSO Integration,Asset Management
+SSO???,Fully Compliant,We can do SAML/SSO Integration,Asset Management
+PASSWWORD??? COMPLEXITY??,Fully Compliant,"Incase of non sso integration, we will have user account created on our side. Password policy is attached",Asset Management
+Is remote access managed?,Fully Compliant,Remote access policy attached.,Asset Management
+,,,
+,,,
+,,,
+"Identity Management, Authentication and Access Control",,,PROTECT
+Who is authorized to access the application 7-11 is using,Fully Compliant,Selected set of HB employees will have access to selected non PII client data,PROTECT
+Is physical access to assets managed and protected?,Fully Compliant,We do not have physical access of assets for any of our employees.,PROTECT
+Is 7-11 consulted before access is granted to our data?,Fully Compliant,Any changes in ownership on HB side will be updated to client's team,PROTECT
+How many of your employees will have administrative access to Company data?,Fully Compliant,None of HB users will have access to PII Data. Rest of the data access be decided and updated based on site launch accordingly,PROTECT
+Is remote access managed?,Fully Compliant,Yes,PROTECT
+What controls are in place to provide accountability for their actions?,Fully Compliant,All activity on systems are logged against users,PROTECT
+Are reports available showing actual accesses to data?,Fully Compliant,All activity on systems are logged against users,PROTECT
+Awareness and Training,,,PROTECT
+Are all users informed and trained?,Fully Compliant,,PROTECT
+Is periodic security training provided/mandatory?,Fully Compliant,Yes. All employees goes through yearly Security training as part of our ISO and PCIDSS certification requirements,PROTECT
+Is the access removed if/when personnel demonstrate questionable integrity?,Fully Compliant,,PROTECT
+Data Security,,,PROTECT
+How is Data transported,Fully Compliant,All data transfer outside of our VPC happens only through secure channels,PROTECT
+What types of firewalls do you utilize?,Fully Compliant,We use AWS Firewall manager,PROTECT
+Do you have a Web Application Firewall (WAF)?,Fully Compliant,we use AWS WAF,PROTECT
+Is data at rest and -in-transit protected?,Fully Compliant,All data in trasit or at rest is encrypted,PROTECT
+Is data stored in an encrypted format?,Fully Compliant,,PROTECT
+Please describe encryption policies and key management.,Fully Compliant,WE use AWS KMS for key management and do regular rotation of keys,PROTECT
+"Describe your availability in regards to capacity, redundancy, and failover.",Fully Compliant,We have capabilty to run services incase 1-2 availability zone goes out of service,PROTECT
+Will your application run on a dedicated or leveraged server?,Fully Compliant,WE use AWS EC2 to run our servers,PROTECT
+Are integrity checking mechanisms used to verify hardware integrity?,Fully Compliant,,PROTECT
+Is there a documented server hardening process?,Fully Compliant,,PROTECT
+Are the development and testing environment(s) separate from the production environment?,Fully Compliant,,PROTECT
+How do you ensure that operating system patches and software updates are applied in a timely manner?,Fully Compliant,,PROTECT
+Information Protection Processes and Procedures,,,PROTECT
+What framework is the Application built on?,Fully Compliant,Our application is developed on Django frameword,PROTECT
+Is there a System Development Life Cycle to manage systems implemented?,Fully Compliant,SDLC Procedure attached.,PROTECT
+Are configuration change control processes in place?,Fully Compliant,Yes,PROTECT
+Are backups of information conducted. maintained. and tested?,Fully Compliant,Yes,PROTECT
+How far is the DR site located from the primary site?,,We keep our data in all Availability zone of AWS mumbai.,PROTECT
+What is your data retention policy,,Data protection policy attached.,PROTECT
+Is an Incident Response and Business Continuity plan in place?,Fully Compliant,Incident management policy attached,PROTECT
+How often is it tested and when was the last test?,Fully Compliant,,PROTECT
+Is a Disaster Recovery Plan in place?,Fully Compliant,,PROTECT
+How often is it tested and when was the last test?,Fully Compliant,Half yearly. Last test was done on 20th Feb,PROTECT
+Is a response plan executed during or after an event?,Fully Compliant,,PROTECT
+Is a vulnerability management plan developed and implemented?,Fully Compliant,Yes,PROTECT
+Maintenance,,,PROTECT
+Is maintenance and repair of facility meet standards?,Fully Compliant,We use AWS for System management. They are SOC2 and ISO certified,PROTECT
+Do you have water detection?,Select Answer,N/A,PROTECT
+Describe your fire suppression systems.,Select Answer,N/A,PROTECT
+"Describe your electrical supply in regards to UPS, generators, etc.",Select Answer,N/A,PROTECT
+Protective Technology,,,PROTECT
+Are audit/log records determined. documented. implemented. and reviewed in accordance with policy?,Fully Compliant,,PROTECT
+,,,
+,,,
+,,,
+Anomalies and Events,,,DETECT Anomalies and Events
+Are detected events analyzed to understand attack targets and methods?,Fully Compliant,Yes,DETECT Anomalies and Events
+Are incident alert thresholds established?,Fully Compliant,Yes,DETECT Anomalies and Events
+Security Continuous Monitoring,,,DETECT Anomalies and Events
+Is the network monitored to detect potential cybersecurity events?,Fully Compliant,Yes,DETECT Anomalies and Events
+Is the physical environment monitored to detect potential cybersecurity events?,Fully Compliant,We use AWS for  infrastructure. They are SOC2 and ISO certified,DETECT Anomalies and Events
+Is personnel activity is monitored to detect potential cybersecurity events?,Fully Compliant,,DETECT Anomalies and Events
+Is external service provider activity monitored to detect potential cybersecurity events?,Fully Compliant,,DETECT Anomalies and Events
+Are vulnerability scans performed?,Fully Compliant,,DETECT Anomalies and Events
+Detection Processes,,,DETECT Anomalies and Events
+Do you have an Intrusion Prevention System?,,,DETECT Anomalies and Events
+Do you use an Intrusion Detection System?,Fully Compliant,Yes,DETECT Anomalies and Events
+Who monitors it?,Fully Compliant,Internal teams manages it,DETECT Anomalies and Events
+Is it done in real-time?,Fully Compliant,Yes,DETECT Anomalies and Events
+Is anti-virus running on all servers?,Fully Compliant,Yes,DETECT Anomalies and Events
+Is Application Whitelisting used on all servers?,Fully Compliant,Yes,DETECT Anomalies and Events
+Is application Whitelisting set to monitor or enforcement mode?,Fully Compliant,Yes,DETECT Anomalies and Events
+"If anti-virus used, do you perform live or scheduled scans?",Fully Compliant,Live Scan,DETECT Anomalies and Events
+Are detection processes tested?,Fully Compliant,Yes,DETECT Anomalies and Events
+,,,
+,,,
+,,,
+Response Planning,,,Response Planning
+Is an incident response plan in place?,Fully Compliant,Yes,Response Planning
+Is a trained incident response team in place?,Fully Compliant,Yes,Response Planning
+"What templates do you have implemented to protect the hosted data (i.e.: PCI, PII, etc.)?",Fully Compliant,,Response Planning
+Analysis,,,Response Planning
+Are notifications from detection systems investigated?,Fully Compliant,Yes,Response Planning
+Is the impact of incidents understood?,Fully Compliant,Yes,Response Planning
+Are forensics performed?,Fully Compliant,Yes,Response Planning
+Are incidents categorized consistent with response plans?,Fully Compliant,Yes,Response Planning
+Are processes established to receive. analyze and respond to vulnerabilities disclosed to the organization from internal and external sources (e.g. internal testing. security bulletins. or security researchers)?,Fully Compliant,"Yes, We have Vulenrability dsiclosure process and will update clients incase of any security breach notified/identified by us",Response Planning
+Mitigation,,,Response Planning
+Are incidents contained?,Fully Compliant,Yes,Response Planning
+Are incidents mitigated?,Fully Compliant,Yes,Response Planning
+Are newly identified vulnerabilities mitigated or documented as accepted risks?,Fully Compliant,Yes,Response Planning
+,,,
+,,,
+,,,
+Recovery Planning,,,Recovery Planning
+Is a recovery plan is executed during or after a cybersecurity incident?,Fully Compliant,Yes,Recovery Planning
+Improvements,,,Recovery Planning
+Do recovery plans incorporate lessons learned?,Fully Compliant,Yes,Recovery Planning
+Are recovery strategies updated?,Fully Compliant,"Yes, Recovery Strategy is regularly tested and updated",Recovery Planning
+Communications,,,Recovery Planning
+Are public relations managed?,Fully Compliant,,Recovery Planning
+Is reputation after an event repaired?,Fully Compliant,,Recovery Planning
+Communications,,,Recovery Planning
+At what stage of the incident lifecycle do you notify customers that their information is at-risk/compromised?,Fully Compliant,We update clients in max  2 hours after verifying and validating issue,Recovery Planning
+Do personnel know their roles and order of operations when a response is needed?,Fully Compliant,Yes,Recovery Planning
+Are events reported consistent with established criteria?,Fully Compliant,Yes,Recovery Planning
+Is information shared consistent with response plans?,Fully Compliant,Yes,Recovery Planning
+Does coordination with stakeholders occur consistent with response plans?,Fully Compliant,Yes,Recovery Planning
+Does voluntary information sharing occur with external stakeholders to achieve broader cybersecurity situational awareness?,Fully Compliant,Yes,Recovery Planning
+Are recovery activities communicated to internal and external stakeholders and executive and management teams?,Fully Compliant,Yes,Recovery Planning
+,,,
+,,,
+,,,
+"Privacy Practices and Policies   Will you be storing PII from 7-11, if yes, then",,,Privacy Practices and Policies
+"Does your organization have a comprehensive privacy program designed to address privacy risks and regulatory compliance relating to personally identifiable information (""PII"")?",Yes,,Privacy Practices and Policies
+"Does your organization describe the purpose or purposes for which it collects, uses, maintains, and shares PII in a privacy notice or policy?",Yes,,Privacy Practices and Policies
+"Are your organization's privacy notices or policies publicly available?  If so, please provide a copy of or link to of such privacy notices and policies?",Yes,https://www.hungerbox.com/privacy-policy.html,Privacy Practices and Policies
+"How often does your organization update its privacy, notices policies, and procedures?",Yes,Annually,Privacy Practices and Policies
+"Do you have a program to comply with the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA)?  If so, please describe.",No,N/A,Privacy Practices and Policies
+"Do you have a plan to comply with the Personal information Protection and Electronic Documents Act (PIPEDA) or provincial privacy laws in Canada, if applicable? If so, please describe.",No,N/A,Privacy Practices and Policies
+"Do you have a plan to comply with Regulation 2016/679 (General Data Protection Regulation) of the European Union? If so, please describe.",No,All our customers are in India and we comply with all legal processes in India.,Privacy Practices and Policies
+7-Eleven PII,,,Privacy Practices and Policies
+What categories and elements of PII do you expect to process on behalf of 7-Eleven?,Yes,"We use name, mobile and company email",Privacy Practices and Policies
+What is the purpose for processing the 7-Eleven PII identified above?,Yes,To provide unique id on application and provide payment methods to user for making payment,Privacy Practices and Policies
+How will you use 7-Eleven PII?,Yes,Employees of 7-eleven,Privacy Practices and Policies
+What are the sources of the 7-Eleven PII?,Yes,Client will provide this information to Hungerbox,Privacy Practices and Policies
+What technologies will be used to collect the 7-Eleven PII? ,Yes,Client will provide this information on Hungerbox panel or SSO,Privacy Practices and Policies
+Will a personal identifier be used to retrieve the 7-Eleven PII?,No,,Privacy Practices and Policies
+Will your organization transfer PII to 7-Eleven's data lake?,No,,Privacy Practices and Policies
+Provide the length of time you intend to retain each category of PII that your organization will process on behalf of 7-Eleven.,Yes,We will keep PII information for contratual term and dispose it after contract is over,Privacy Practices and Policies
+Location of Processing,,,Privacy Practices and Policies
+Where will your organization process 7-Eleven PII?,Yes,,Privacy Practices and Policies
+"Does your organization transfer  PII out of the European Union to another country? If so, identify the safeguards that your organization implements to with respect to such transfers of PII?  Do you comply with GDPR (General Data Protection Requirements) ?",Yes,,Privacy Practices and Policies
+Data Sharing Practices,,,Privacy Practices and Policies
+"Will PII that you process on behalf of 7-Eleven be shared with any external vendors, contractors or service providers (""External Parties"")?",No,No PII data is shared with any external parties,Privacy Practices and Policies
+How is the data transmitted or disclosed to the External Parties?,No,,Privacy Practices and Policies
+Do you have written agreements in place with all External Parties that will receive 7-Eleven PII to require the protection of the confidentiality of the PII and to limit use to deliver the applicable products or services to 7-Eleven?,No,N/A,Privacy Practices and Policies
+"Identify, by name and address, all External Parties that will process or receive 7-Eleven PII that your organization will receive or otherwise process for 7-Eleven.",No,N/A,Privacy Practices and Policies
+Describe the procedures your organization has implemented to ensure External Parties who process 7-Eleven PII have implemented appropriate privacy controls.,No,N/A,Privacy Practices and Policies
+Data Minimization and Retention,,,Privacy Practices and Policies
+Does your organization limit its PII collection and retention to the minimum required for the purposes described in its privacy notice or policy?,Yes,,Privacy Practices and Policies
+Do you have a data retention and/or data destruction policy applicable to PII?,Yes,Data disposal policy attached.,Privacy Practices and Policies
+"Does your organization dispose of, destroy, erase, or anonymize PII, regardless of storage method, according to industry best practices and in a manner that prevents loss, theft, misuse, or unauthorized access?",Yes,,Privacy Practices and Policies
+Employee Training and Obligations,,,Privacy Practices and Policies
+Has your organization developed and implemented a training and awareness program designed to implement privacy controls and to ensure that personnel understand privacy responsibilities and procedures?,Yes,,Privacy Practices and Policies
+Does your organization administer role-based privacy training for personnel having responsibility for PII or for activities that involve PII?,Yes,,Privacy Practices and Policies
+"Are all personnel who are authorized to process PII on behalf of 7-Eleven subject to written agreements to maintain the confidentiality of such PII and to limit use to the delivery of services or products to 7-Eleven?
+",Yes,,Privacy Practices and Policies
+"Do you have exit procedures in place to verify that PII is no longer accessible to  personnel after their employment/engagement with your organization ends? If so, please describe such procedures.",Yes,,Privacy Practices and Policies
+"Do you conduct background checks on personnel who are authorized to process  PII on behalf of 7-Eleven? If so, please explain the types of background checks performed, how often they are conducted, and criteria used to evaluate new personnel.",Yes,ALL Employees of HB have Non Disclosure agreement in place for maintaining data,Privacy Practices and Policies
+Governance and Risk Assessment,,,Privacy Practices and Policies
+"Has your organization appointed a Chief Privacy Officer or other senior management designee accountable for developing, implementing, and maintaining an enterprise wide privacy compliance program?  If so, please identify your CPO or other designee.",Yes,We have assigned our AVP Tech Kalyan as DPO . His connects are kalyan@hungerbox.com,Privacy Practices and Policies
+Does your organization monitor privacy laws and policy for changes that may affect its privacy program?,Yes,,Privacy Practices and Policies
+"Do you have a  process to assess privacy risks and privacy regulatory responsibilities in relevant areas of your operations, including product design, development and deployment?",Yes,,Privacy Practices and Policies
+Individual Rights,,,Privacy Practices and Policies
+"Does your organization you have a processes in place to fulfill and honor requests from individuals who wish to access, correct or delete their PII?",Yes,,Privacy Practices and Policies
+"Describe the mechanism and process that your organization will make available to 7-Eleven for 7-Eleven to communicate access, correction, and deletion requests to you.",Yes,We will provide connect  7-eleven to HB team member who will manage PII and other account management activities for 7-eleven,Privacy Practices and Policies
+Advanced Technology Used,,,Privacy Practices and Policies
+"Will your organization use advanced algorithms, machine learning (ML), artificial intelligence, or biometric information or technologies in processing 7-Eleven PII? If so, please explain the methodology used an how data will be used.",No,,Privacy Practices and Policies
+Record Keeping,,,Privacy Practices and Policies
+"Does your organization maintain an inventory of the PII it collects, uses, maintains, or shares, including systems and data locations?",Yes,,Privacy Practices and Policies
+"How often does your organization  update its inventory of the PII it collects, uses, maintains, or shares?",Yes,We update it at point of any new PII collection feature and audit it quaterly once,Privacy Practices and Policies

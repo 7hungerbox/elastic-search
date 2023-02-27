@@ -1,0 +1,162 @@
+Question/Request,Response,Maturity,Additional Information,AUP Reference,ISO 27002:2013 Relevance,,tags,company
+,,,,,,,,
+"Is there a risk assessment program that has been approved by management, communicated to constituents and an owner to maintain and review the program? if yes, does it include:",Yes,,Network Security Policy,A.1 IT & Infrastructure Risk Governance and Context,5.1 6.1.2,"Leadership & Commitment, Information Security Risk Assessment",Risk Assessment and Treatment,ZS
+"Do Subcontractors have access to Scoped Systems and Data? (backup vendors, service providers, equipment support maintenance, software maintenance vendors, data recovery vendors, etc.)? If yes, is there:",No,,,,15,Supplier relationships,Risk Assessment and Treatment,ZS
+"A documented vendor management process in place for the selection, oversight and risk assessment of third party vendors? If yes, does it include:",N/A,,,A.7 Subcontractor Selection and Management Process,15.1.1,Information security policy for supplier relationships,Risk Assessment and Treatment,ZS
+Is there a vendor management program?,Yes,,,A.5 Vendor Risk Management Program,,,Risk Assessment and Treatment,ZS
+Do external parties have access to Scoped Systems and Data or processing facilities?,No,,,,15,Supplier relationships,Risk Assessment and Treatment,ZS
+"Is the maturity of IT management processes formally evaluated at least annually using an established benchmark (e.g., COBIT maturity models)?",Yes,,,,17.1.3,"Verify, review and evaluate information security continuity",Risk Assessment and Treatment,ZS
+"Are there regular privacy risk assessments conducted? If yes, provide frequency and scope. If no, explain reason.",Yes,,"We perform VAPT anually on our Android, IOS and PWA platforms",P.3 Privacy Organization and Program Maintenance,15.1.3.i,Information and communication technology supply chain,Risk Assessment and Treatment,ZS
+Are identified privacy risks and associated mitigation plans formally documented and reviewed by management?,Yes,,Incident Management Policy,P.3 Privacy Organization and Program Maintenance,15.1.1.l,Information security policy for supplier relationships,Risk Assessment and Treatment,ZS
+Are reasonable resources (in time and money) allocated to mitigating identified privacy risks?,Yes,,,P.3 Privacy Organization and Program Maintenance,,,Risk Assessment and Treatment,ZS
+Is there a compliance risk management system that addresses the quality and accuracy of reported consumer data?,Yes,,,P.3 Privacy Organization and Program Maintenance,,,Risk Assessment and Treatment,ZS
+Is there a compliance risk management system that addresses the quality of assembling and maintaining the data?,Yes,,,P.3 Privacy Organization and Program Maintenance,,,Risk Assessment and Treatment,ZS
+,,,,,,,,
+"Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes,,Information security policy,B.1 Information Security Policy Maintenance,5.1.1,Policies for information security,Security Policy,ZS
+Have the policies been reviewed in the last 12 months?,Yes,,,B.1 Information Security Policy Maintenance,5.1.2,Review of the policies for information security,,ZS
+,,,,,,,,
+Is there a Assessee information security function responsible for security initiatives?,Yes,,Security Policy,C.1 Security Organization Roles / Responsibilities,6.1.1,Information Security Roles and Responsibilities,Organizational Security,ZS
+,,,,,,,,
+"Is there an asset management policy approved by management, communicated to constituents and an owner to maintain and review?",Yes,,Asset management Policy by IT,D. Asset and Information Management,8.1,Responsibility for Assets,Asset and Information Management,ZS
+Is information classified?,,,Need more clarification,D.1 Asset Accounting and Inventory,8.2.1,Classification of Information,Asset and Information Management,ZS
+"Is there a removable media policy or program (CDs, DVDs, tapes, disk drives) that has been approved by management, communicated to appropriate constituents, and an owner to maintain and review the policy?",Yes,,Data disposal policy,D.4 Removable Device Security,8.3.1,Management of Removable Media,Asset and Information Management,ZS
+Is Scoped Data sent or received via physical media?,No,,,D.2 Physical Media Tracking,8.3.3,Physical Media in Transit,Asset and Information Management,ZS
+Are encryption tools managed and maintained for Scoped Data? If yes:,,,,D.5 Data Security Policy - Encryption,10.1,Cryptographic controls,Asset and Information Management,ZS
+Are clients provided with the ability to generate a unique encryption key?,,,,D.5 Data Security Policy - Encryption,10.1.2,Key Management,Asset and Information Management,ZS
+Are clients provided with the ability to rotate their encryption key on a scheduled basis?,,,,D.5 Data Security Policy - Encryption,10.1.2,Key Management,Asset and Information Management,ZS
+Are staff able to access client Scoped Data in an unencrypted state?,No,,,H.3 Logical Access Authorization,"9.2.3
+9.4.6",Management of privileged access rights Information access restriction,Asset and Information Management,ZS
+Are staff able to access client's encryption keys?,No,,,H.3 Logical Access Authorization,"9.2.3
+9.4.7",Management of privileged access rights Information access restriction,Asset and Information Management,ZS
+Is data segmentation and separation capability between clients provided?,Yes,,,V.1 Service and Deployment Models,9.4.1,Information access restriction,Asset and Information Management,ZS
+"Does the ability exist to legally demonstrate sufficient data segmentation, in the event of a client subpoena or a forensics incident, so as not to impact other clients data if using resource pooling?",,,,V.1 Service and Deployment Models,16.1.1 16.1.7,"Responsibilities and Procedures,
+Collection of Evidence.",Asset and Information Management,ZS
+Is there a data classification retention program that identifies the data types that require additional management and governance?,Yes,,Data classification policy,P.1 Scoped Privacy Data Inventory and Flows,8.2,Information Classification,Asset and Information Management,ZS
+"Is there a self-service portal or API call available to clients which provides the ability to place a ""Legal hold"" on client data which may be subject to a legal action, without impacting other clients data retention or destruction schedules?",No,,Retention time period can be modified,P.6 Management of Client Scoped Privacy Data,16.1.1 16.1.7 18.1.2 18.1.3,"Responsibilities and Procedures,
+Collection of Evidence,
+Intellectual Property Rights,
+Protection of records",Asset and Information Management,ZS
+,,,,,,,,
+"Is there a Human Resource policy approved by management, communicated to constituents and an owner to maintain and review? If yes, does it include:",Yes,,HR Policy,,,,Human Resource Security,ZS
+Are background checks performed for Service Provider Contractors and Subcontractors?,N/A,,,E.2 Background Investigation Policy Content,7.1.1 7.2.1,Screening Management responsibilities,Human Resource Security,ZS
+Do information security personnel have professional security certifications?,,,,,6.1.4,Contact with special interest groups,Human Resource Security,ZS
+,,,,,,,,
+Is there a physical security program?,Yes,,Physical and Evironmental Security,F.2 Physical Security Controls - Scoped Data,5.1.1,Policies for information security,Physical and Environmental Security,ZS
+Are physical security and environmental controls in the data center and office buildings?,Yes,,,F. Physical and Environmental Security,11.1,Secure areas,Physical and Environmental Security,ZS
+Are visitors permitted in the facility?,Yes,,,F.7 Visitor Management,11.1.2,Physical entry controls,Physical and Environmental Security,ZS
+,,,,,,,,
+Are management approved operating procedures utilized?,Yes,,,G. Operations Management,12.1.1,Documented Operating Procedure,Operations Management,ZS
+"Is there an operational change management/change control policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes,,Change Management Policy,G.1 Change Control,12.1.2,Change Management,Operations Management,ZS
+Are backups of Scoped Systems and Data performed?,Yes,,,K.5 Backup Media Restoration,12.3.1,Information Back-Up,Operations Management,ZS
+"Are Cloud Services provided? If yes, what service model is provided (select all that apply):",Yes,,,V.1 Service and Deployment Models,4.3,Determining the scope of the information management system,Operations Management,ZS
+Is there a client management portal which allows distributed business accounts (business units/departments) to be managed under a single central corporate account?,,,,,15.2.1,Monitoring and review of supplier services,Operations Management,ZS
+Are application self service features or an Internet accessible self-service portal available to clients?,Yes,,,,9.4.1,Information access restriction,Operations Management,ZS
+Can clients run their own security services within their own cloud environment?,Yes,,,V.3 Cloud Audit Program,12.4.1 12.4.3 12.5 12.6.1,"Event logging, Administrator and operator logs, Control of operational software, Management of technical vulnerabilities",Operations Management,ZS
+Is there a management approved process to ensure that image snapshots containing Scoped Data are authorized prior to being snapped?,,,All the data backups are automated on our AWS servers. No physical copies are maintained,,9.2.3,Management of privileged access rights,Operations Management,ZS
+"Is there a formal process to ensure clients are notified prior to changes being made which may impact their service? If yes, what is the communication method:",Yes,,Email Communication,G.1 Change Control,12.1.2,Change management,Operations Management,ZS
+"Is there a scheduled maintenance window? If yes, what is the frequency:",No,,If required on demand.,V.4 Security Review of Hypervisor Configuration,12.6.1,Management of technical vulnerabilities,Operations Management,ZS
+"Is there a scheduled maintenance window which results in client downtime? If yes, what is the downtime:",N/A,,,V.4 Security Review of Hypervisor Configuration,14.2.2.l,System change control procedures,Operations Management,ZS
+"Is there an online incident response status portal, which outlines planned and unplanned outages? If yes, how long after an unplanned outage is this updated:",No,,We update incident status via email communication,"J. Incident Event and Communications Management
+P.8 Privacy Incident Notification and Response Management",14.2.2,System change control procedures,Operations Management,ZS
+,,,,,,,,
+"Are electronic systems used to transmit, process or store Scoped Systems and Data?",Yes,,,,,,Access Control,ZS
+"Are individual IDs required for user authentication to applications, operating systems, databases and network devices?",Yes,,,H.1 Password Controls,9.2.1.a,User registration and de-registration,Access Control,ZS
+Are passwords used?,Yes,,,H. Access Control,,,Access Control,ZS
+"Is there a password policy for systems that transmit, process or store Scoped Systems and Data that has been approved by management, communicated to constituents, and enforced on all platforms?",Yes,,,H. Access Control,9.4.3,Password Management System,Access Control,ZS
+Is remote access permitted?,Yes,,,H.8 Restrictions and Multifactor Authentication,6.2,Mobile devices and teleworking,Access Control,ZS
+"Is standards based federated ID capability available to clients (e.g., SAML, OpenID)?",Yes,,,,9.2.1,User registration and de-registration,Access Control,ZS
+Is two factor authentication required to access the production environment containing Scoped Data?,Yes,,,,9.3.1,Use of secret authentication information,Access Control,ZS
+"Are staff able to access client Scoped Data? If not, please identify the controls used to prevent this.",No,,Governance Policy Attached,H.3 Logical Access Authorization,"9.2.3
+9.4.1",Management of privileged access rights Information access restriction,Access Control,ZS
+Is there a process which allows the client to specifically list who from the provider will have access to their Scoped Systems and Data?,Yes,,,H.3 Logical Access Authorization,9.1.1 9.2.3,"	Access Control Policy
+Management of privileged access rights",Access Control,ZS
+,,,,,,,,
+"Are applications used to transmit, process or store Scoped Data?",Yes,,,I.1 Application Security Program Governance,,,Application Security,ZS
+"Is a web site supported, hosted or maintained that has access to Scoped Systems and Data?",Yes,,,,,,Application Security,ZS
+Is application development performed?,Yes,,,I. Application Security,,,Application Security,ZS
+Are applications analyzed on a regular basis to determine their vulnerability against recent attacks?,Yes,,,I.10 QA_UAT Process,12.2.1,Controls against malware,Application Security,ZS
+"Is there a formal development methodology in operation? If yes, which groups does it include?:",Yes,,App Development Policy,I.16 Secure Systems Development Lifecycle (SDLC) Reviews,12.5.1,Control of Operational Software,Application Security,ZS
+Are mobile applications that access Scoped Systems and Data developed?,Yes,,,,,,Application Security,ZS
+,,,,,,,,
+"Is there an Incident Management Program that has been approved by management, communicated to constituents and an owner to maintain and review the program? If yes, does the program include:",Yes,,Incident Management Policy,J.1 Information Security / Information Technology Incident Management - Policy and Procedures Content,16,Information security incident management,Application Security,ZS
+Is there a formal Incident Response Plan?,Yes,,,J. Incident Event and Communications Management,16.1.1.a.1,Responsibilities and procedures,Application Security,ZS
+Is there a 24x7x365 staffed phone number available to clients to report security incidents?,Yes,,,"J. Information Security Incident Management
+P.8 Privacy Incident Notification and Response Management",15.1.1.h,Information security policy for supplier relationships,Application Security,ZS
+,,,,,,,,
+Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents?,Yes,,,K.1 Business Resiliency Governance,5.2,Management Commitment,Business Resiliency,ZS
+Has a Business Impact Analysis been conducted?,Yes,,,K.2 Business Impact Analysis,8.2.2,Business impact analysis,Business Resiliency,ZS
+Is there a formal process focused on identifying and addressing risks of disruptive incidents to the organization?,Yes,,,K.3 Risk Assessment,8.2.3,Risk assessment,Business Resiliency,ZS
+Are specific response and recovery strategies defined for the prioritized activities?,Yes,,,K.4 Business Activity level Recovery Planning,8.3.1,Determination and selection,Business Resiliency,ZS
+Are formal business continuity procedures developed and documented?,Yes,,,K.4 Business Activity level Recovery Planning,8.4,Establish and implement business continuity procedures,Business Resiliency,ZS
+Has senior management assigned the responsibility for the overall management of the response and recovery efforts?,Yes,,,K.1 Business Resiliency Governance,,,Business Resiliency,ZS
+Is there a periodic (at least annual) review of your Business Resiliency Program?,Yes,,,K.6 Exercising,8.4.1,Establish and implement business continuity procedures,Business Resiliency,ZS
+Are there any dependencies on critical third party service providers?,No,,,K.2 Business Impact Analysis,"8.1
+8.3
+8.3.1
+8.44","Operational Planning and Control
+
+Business continuity strategy
+
+Determination and selection
+
+Business continuity plans",Business Resiliency,ZS
+"Is there a formal, documented exercise and testing program in place?",Yes,,,K.6 Exercising,8.5,Exercising and testing,Business Resiliency,ZS
+Is there an Influenza Pandemic / Infectious Disease Outbreak Plan?,,,,K.7 Infectious Disease Planning,,,Business Resiliency,ZS
+"Is there a specific Recovery Time Objective (RTO)? If yes, what is it?",Yes,,2 hours,,17.1.2,Implementing information security continuity,Business Resiliency,ZS
+"Are all suppliers of critical hardware, network services and facility services involved in annual continuity and recovery tests?",Yes,,,,17.1.3,"Verify, review and evaluate information security continuity",Business Resiliency,ZS
+Are site failover tests performed at least annually?,,,,,17.1.3,"Verify, review and evaluate information security continuity",Business Resiliency,ZS
+Do contracts with Critical Service Providers include a penalty or remediation clause for breach of availability and continuity SLAs?,,,,,15.1.2 15.2.1,"Addressing security within supplier agreements, Monitoring and review of supplier services",Business Resiliency,ZS
+Is there sufficient redundancy capacity to ensure services are not impacted in multi-tenancy environments during peak usage and above?,,,,,17.1.3,"Verify, review and evaluate information security continuity",Business Resiliency,ZS
+,,,,,,,,
+"Is there an internal audit, risk management, or compliance department, or similar management oversight unit with responsibility for assessing, identifying and tracking resolution of outstanding regulatory issues?",,,,L.3 Monitoring and Reporting - Compliance Requirement Identification,18.1.1,Identification of applicable legislation and contractual requirements,L. Compliance,ZS
+"Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements including intellectual property rights on business processes or information technology software products?",,,,L.2 Monitoring and Reporting - Compliance,,,L. Compliance,ZS
+"Is there a records retention policy covering paper and electronic records, including email in support of applicable regulations, standards and contractual requirements?",,,,,18.1.3,Protection of records,L. Compliance,ZS
+Is licensing maintained in all jurisdictions where required?,,,,,,,L. Compliance,ZS
+Is there an documented internal compliance and ethics program to ensure professional ethics and business practices are implemented and maintained?,,,,L.4 Professional Ethics and Business Practices,,,L. Compliance,ZS
+Are marketing or selling activities conducted directly to Client's customers?,,,,,,,L. Compliance,ZS
+Are there direct interactions with your client's customers?,,,,,,,L. Compliance,ZS
+"Are documented policies and procedures maintained for enabling compliance with applicable legal, regulatory, or contractual obligations related to information security requirements?",,,,,,,L. Compliance,ZS
+"Is there a documented governance process to identify and assess changes that could significantly affect the system of internal controls for security, confidentiality and availability?",,,,L.3 Monitoring and Reporting - Compliance Requirement Identification,,,L. Compliance,ZS
+"Are accounts opened, transactions initiated or other account initiation activity applying payments, taking payments, transferring funds, etc. through either electronic, telephonic, written or in-person requests made on behalf of your client's?",,,,,,,L. Compliance,ZS
+"Are these sites, applications and systems used to also transmit, process or store non-scoped data?",,,,,,,L. Compliance,ZS
+Are all transaction details (such as payment card info and information about the parties conducting transactions) prohibited from being stored in the DMZ?,,,,,14.1.3.e,Protecting Application Services Transactions,L. Compliance,ZS
+Does the service provider permit client audits and assessments?,,,,V.3 Cloud Audit Program,15.1.2 15.2.1,"Addressing security within supplier agreements, Monitoring and review of supplier services",L. Compliance,ZS
+,,,,,,,,
+"Are End User Devices (Desktops, Laptops, Tablets, Smartphones) used for transmitting, processing or storing Scoped Data? If yes, for all platforms, are:",Yes,,Mobile Device,,,,End User Device Security,ZS
+"Are constituents allowed to utilize mobile devices within your environment? If yes, which of the following functions are allowed:",Yes,,,,,,End User Device Security,ZS
+Is there a mobile device management program in place that has been approved by management and communicated to appropriate constituents?,Yes,,,,,,End User Device Security,ZS
+"Are staff technically prevented from accessing the administrative environment via non-managed private devices? If yes, is it from:",,,,H.3 Logical Access Authorization,9.1.1 9.1.2 9.2.1 9.2.3,"Access control policy,
+Access to networks and network services,
+User registration and de-registration,
+Management of privileged access rights",End User Device Security,ZS
+,,,,,,,,
+"Are there external network connections (Internet, extranet, etc.)?",,,,"B.2 Information Security Standards
+N.Network Security",13.1.1,Network Controls,Network Security,ZS
+"Security and hardening standards for network devices, including Firewalls, Switches, Routers and Wireless Access Points (baseline configuration, patching, passwords, access control)?",Yes,,Network Security Policy,N. Network Security,13.1.1.c,Network Controls,Network Security,ZS
+Are firewalls used to isolate critical and sensitive systems into network segments separate from network segments with less sensitive systems?,Yes,,,N.2 Network Security - Firewall(s) and/or Other Devices Providing the Same Functionality,13.1.3,Segregation In Networks,Network Security,ZS
+"Is there a process that requires security approval to allow external networks to connect to the company network, and enforces the least privilege necessary?",,,,,9.1.2.b,Access to networks and network services,Network Security,ZS
+Are all available high-risk security patches applied and verified at least monthly?,,,,,12.6.1.g,Management of technical vulnerabilities,Network Security,ZS
+Are Intrusion Detection/Prevention Systems employed in all sensitive network zones and wherever firewalls are enabled?,Yes,,,N.3 Network Security - IDS/IPS Attributes,13.1.2,Security of Network Services, Network Security,ZS
+Are wireless networking devices connected to networks containing scoped systems and data?,,,,N.7 Unauthorized Wireless Networks,13.1.1.c,Network Controls,Network Security,ZS
+Are there controls to prevent one client attempting to compromise another client in a resource pooled environment?,,,,H.3 Logical Access Authorization,12.4.1 15.2.1,"Event Logging,
+Monitoring and review of supplier services",Network Security,ZS
+,,,,,,,,
+"Is Scoped Data transmitted, processed, or stored that can be classified as non-public information (NPI), personally identifiable information (PII), or sensitive customer financial information? If yes, describe and list types of data.",,,,,8.2.1,Classification of Information,Privacy,ZS
+"Do agreements with third parties who have access or potential access to Scoped Data, address confidentiality, audit, security, and privacy, including but not limited to incident response, ongoing monitoring, data sharing and secure disposal of Scoped Data?",,,,P.4 Third Party Privacy Agreements,15.1.2,Addressing security within supplier agreements,Privacy,ZS
+Is a business associate contract in place to address obligations for the privacy and security requirements for the services provided?,,,,P.4 Third Party Privacy Agreements,15.1.2,Addressing security within supplier agreements,Privacy,ZS
+"For Scoped Data, is personal information about individuals transmitted to or received from countries outside the United States? If yes, list the countries.",,,,,,,Privacy,ZS
+"Is personal information transmitted, processed, stored, or disclosed to or retained by third parties? If yes, describe.",,,,,15,Supplier Relationships,Privacy,ZS
+"Are transactions for covered accounts accessed, modified, or processed, including address changes and discrepancies? If yes, describe.",,,,,,,Privacy,ZS
+,,,,,,,,
+"Is there an anti-malware policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes,,Anti-virus and Anti-malware policy,"T.1 Virus Protection (Servers)
+T.2 Virus Protection (Workstations)",12.2.1,Controls Against Malware,Threat Management,ZS
+"Is there a vulnerability management policy or program that has been approved by management, communicated to appropriate constituents and an owner assigned to maintain and review the policy?",Yes,,Vulnerability Management Policy,T.4 Technical Compliance Checking - Vulnerability Testing and Remediation,12.6.1,Control of technical vulnerabilities,Threat Management,ZS
+Are vulnerability scans performed on all internet-facing applications at least monthly and after significant changes?,Yes,,,T.3 Application Vulnerability Assessments/Ethical Hacking,12.6.1,Management of technical vulnerabilities,Threat Management,ZS
+Are vulnerability scans performed against internal networks and systems?,Yes,,,,,,Threat Management,ZS
+Are penetration tests performed?,Yes,,,,,,Threat Management,ZS
+Are there processes to manage threat and vulnerability assessment tools and the data they collect?,,,,I.1 Application Security Program Governance,12.6.1,Management of technical vulnerabilities,Threat Management,ZS
+,,,,,,,,
+"Are Servers used for transmitting, processing or storing Scoped Data?",Yes,,,,,,Server Security,ZS
+Are systems and applications patched?,Yes,,,G.2 System Patching,12.6.1,Management of technical vulnerabilities,Server Security,ZS
+Are default hardened base virtual images applied to virtualized operating systems?,,,,U.2 System Hardening Standards,,,Server Security,ZS
+"Are Hypervisors used to manage systems used to transmit, process or store Scoped Data?",,,,V.4 Security Review of Hypervisor Configuration,14.1.2,Securing application services on public networks,Server Security,ZS

@@ -1,0 +1,573 @@
+DPR Q in Aravo,(MSFT) Suggested Assessment Criteria,Applicability,Response,Comments,DRL/ Evidence to Provide,Team Responsible,DRL Status,Comments,Results,Company,tags
+,,,,,,,,,,,
+"Before the supplier may Process Microsoft Personal or Confidential Information, it must:",,,,"EVERY ""Not Compliant"" response MUST have a Comment (response) in the Aravo tool.  Compliant Comments do not need to be entered in the Tool, but are required by RSM
+",,,,,,Microsoft,Management
+"Each applicable agreement between Microsoft and the
+supplier (e.g., master agreement, statement of work,
+purchase orders and other orders) contains privacy and
+security data protection language with respect to
+Microsoft Confidential and Personal Data, as applicable,
+including prohibitions on the sale of Microsoft Personal
+Data and Processing of Microsoft Personal Data outside
+the direct business relationship between Microsoft and
+supplier.
+
+For companies operating as Processors or Subprocessors in connection with the Performance, with respect to Microsoft Personal Data, the agreement must include the subject-matter and duration of the Processing, the nature and purpose of the Processing, the type of Microsoft Personal Data and categories of Data Subjects and the obligations and rights of Microsoft.
+","Supplier must present the applicable contract between Microsoft and Supplier.
+
+For Processors and Subprocessors, the Processing descriptions are contained in the applicable agreement (e.g., statement of work, purchase orders).
+
+Note: Companies with in-flight purchase orders may have the necessary description of Processing activities added later in the purchasing process.
+",,,,"Attached Document: 
+
+Microsoft SOW Agreement",Legal Team,Open,,,Microsoft,Management
+"Assign responsibility and accountability for compliance
+with the DPR to a designated person or group within the
+company.","Name of the person or group charged with ensuring compliance to the Microsoft Supplier DPR.
+
+A document describing the authority and accountability of this person or group that demonstrates a privacy and/or security role.
+",,,,"Attached Document: 
+
+Point 2: Authority.pdf",Information Security Team/ Compliance Team,Open,,,Microsoft,Management
+"Establish, maintain, and perform annual privacy and security training for employees that will have access to
+Personal Data Processed by supplier in connection with
+Performance or Microsoft Confidential Data.
+
+If your company does not have prepared content, you can
+use this storyboard outline and adapt it for your company.
+
+Note: Supplier personnel may be required to complete
+additional trainings provided by Microsoft divisions.
+","Annual records of attendance are available and can be provided to Microsoft upon request.
+
+Training content includes privacy and security principles.
+",,,"Below are the points covered in our training - 
+1. Safe Browsing: Validating Safe Sites & Links
+2. Password Selection: What is good Password
+3. Email Security: Spoof and Managing Attachement
+4. Hardware Safety: Laptop and Mobile Access Safety
+5. Social Engineering","Attached Document: 
+
+security-awareness-policy",Information Security Team/ Compliance Team,Open,,,Microsoft,Management
+"Process Microsoft Personal Data only in accordance with
+Microsoft’s documented instructions including, scenarios
+with regard to transfers of Microsoft Personal Data to a
+third country or an international organization, unless
+required to do so by Law; in such a case, the Processor or Subprocessor (supplier) shall inform the controller
+(Microsoft) of that legal requirement before Processing,
+unless that Law prohibits such information on important
+grounds of public interest.
+","Supplier compiles and maintains all Microsoft documented instructions (e.g., agreement,
+statement of work or order documentation) electronically, in an easily accessible location to
+supplier’s employees and contractors participating in the Performance.
+",,,Mobile number is shared with Payment gateways if required,"Attached Document : 
+Microsoft SOW Agreement",Legal Team,Open,,,Microsoft,Management
+,,,,,,,,,,Microsoft,
+"The supplier must use the Microsoft Privacy Statement
+when collecting Personal Data on Microsoft’s behalf.
+
+The privacy notice must be obvious and available to Data
+Subjects to help them decide whether to submit their
+Personal Data to the supplier.
+
+Note: Where your company is the Controller of the
+Processing activity, you would post your own privacy
+notice.
+","Supplier uses a fwdlink to the current, published Microsoft Privacy Statement.
+
+The Privacy Statement is posted in any context where a user’s Personal Data will be collected.
+
+If applicable, an offline version is available and is provided prior to data collection.
+
+Any offline Privacy Statements used are the latest, published version and are dated properly.
+
+For Microsoft employee services, the Microsoft Data Protection Notice is used. 
+",,,"We are controller of the processing activity
+
+1. Data Collection Process:  Data of Microsoft Employees is sent by the Microsoft Admin to HungerBox and HungerBox registers the employees on the system
+
+2. Privacy notice: Privacy notice is made avalable online
+
+3. Data collected is transmitted through HTTPs protocols and is encrypted while stored at Rest. For more details refer to the data protection policy, section 5.3 and 5.4
+
+4.Attached screenshot of the feature where the consent is obtained if the user signs up on the Application","https://hungerbox.com/privacy-policy.html
+Attached - 
+5.DSR_consent
+
+and 
+
+Data Protection Policy",Information Security Team/ Compliance Team,Open,,Only Hungerbox privacy policy in place,Microsoft,Notice
+"When collecting Microsoft Personal Data via a live or
+recorded voice call, suppliers must be prepared to discuss the applicable data collection, handling, use, and retention practices with Data Subjects.
+","A script for voice recordings includes how Microsoft Personal Data is Processed, and includes:
+▪ collection,
+▪ use and
+▪ retention.
+",,,"We do not collect any data on lie voice recording calls, as the business model is developed for the Microsoft employees to order food in the cafeteria",NA,Operations Team,N/A,,,Microsoft,Notice
+,,,,,,,,,,Microsoft,
+"Where supplier relies on consent as its legal basis for
+Processing data, the supplier must obtain and record a
+Data Subject’s consent for all of its Processing activities
+(including any new and updated Processing activities) prior to collecting that Data Subject’s Personal Data.","Supplier can demonstrate how a Data Subject provides consent for a Processing activity and that the scope of the consent covers all of supplier’s Processing activities with respect to that Data Subject’s Personal Data. 
+
+Supplier can demonstrate how a Data Subject withdraws consent for a Processing activity. 
+
+Supplier can demonstrate how preferences are checked prior to launch of a new Processing activity.
+
+Supplier monitors effectiveness of preference management to ensure the timeframe to honor a preference change is the most restrictive local legal requirement that applies.
+
+Note: Evidence can be user interaction screenshots; experimentation with the service or an opportunity to view technical documentation.",,,"As per the engagement with Microsoft we have an offline process for employee registration or employees can directly reach out to the campus helpdesk to register themselves, registrations do not take place on the application. Post logging in user can see the legal and privacy policy.
+
+Screenshot added for the feature available to collect the consent but is not enabled for the Microsoft company as per the current requirement of the solution
+","User Screenshots attached:
+
+Screenshot",Information Security Team/ Compliance Team,Open,,Privacy policy,Microsoft,Choice and Consent
+"Cookies are small text files stored on devices by
+websites and/or applications that contain information
+used to recognize a Data Subject or a device.
+Suppliers that create and manage Microsoft websites
+and/or applications must provide Data Subjects with
+transparent notice and choice regarding the use of
+cookies. Unless specifically requested not to by the
+contracting business unit, suppliers should use the
+Standard Banner produced by 1ES to manage choice
+controls.
+Suppliers that create and manage Microsoft websites
+and/or applications must ensure that cookie use aligns
+with commitments in the Microsoft Privacy Statement
+and local legal requirements such as rules established
+by the EU.
+Note: Microsoft business sponsors are required to
+register Microsoft websites in the internal Web
+Compliance portal (http://aka.ms/wcp) to have the
+inventory of cookies cataloged and managed
+","The purpose of each cookie must be documented and
+must inform the type of cookie implemented.
+▪ Persistent cookies must not be used when session
+cookies will suffice.
+▪ When persistent cookies are used, they must not
+have an expiration date that exceeds 2 years after a
+user has visited the site.
+Validate compliance with EU Laws as applicable, such
+as,
+▪ use of the labelling convention, “Privacy & Cookies”
+for the privacy statement,
+▪ secure affirmative user consent before use of
+cookies for “non-essential” purposes such as
+advertising, and
+▪ consent must expire or be re-obtained no longer
+than every 6 months
+",,,We do not use cookies to store local information.,NA,IT/ Operations Team,N/A,,,Microsoft,Choice and Consent
+,,,,,,,,,,Microsoft,
+"The supplier must monitor the collection of Microsoft
+Personal and/or Confidential Data to ensure that the only
+data collected is that required to Perform.
+","Supplier can provide documentation that shows the
+Microsoft Personal and/or Confidential Data collected
+is needed to Perform.
+Supplier will furnish documentary evidence to
+Microsoft upon request",,,In contract,Requested in Requirement #1.,Requested in Requirement #1.,Open,,,Microsoft,Collection
+"If the supplier collects Personal Data from third parties on
+behalf of Microsoft, the supplier must validate that the
+third-party data protection policies and practices are
+consistent with the supplier’s contract with Microsoft and
+the DPR. 
+","Supplier can provide documentation of due diligence
+performed regarding the third party’s data protection
+policies and practices.
+Supplier will furnish documentary evidence to
+Microsoft upon request.",,,Only AWS. We do not collect personal data from third parties on behalf of Microsoft,NA,Information Security Team/ Compliance Team,Open,,Only AWS,Microsoft,Collection
+"Before collecting Microsoft Personal Data through the
+installation or utilization of executable software on a Data
+Subject’s device, the necessity for collecting this
+information must be documented in an executed supplier
+contract with Microsoft.
+","Microsoft agreement with the use of executable software on a Data Subject device is noted in the
+executed contract.",,,,Requested in Requirement #1.,Requested in Requirement #1.,Open,,,Microsoft,Collection
+"Before collecting sensitive Microsoft Personal Data (data
+revealing racial or ethnic origin, political opinions, religious
+or philosophical beliefs, or trade union membership,
+genetic data, biometric data, data concerning health or
+data concerning a natural person's sex life or sexual
+orientation) the necessity for collecting that Microsoft
+Personal Data must be documented in an executed
+supplier contract with Microsoft.
+","The necessity of collecting sensitive Microsoft Personal Data is noted in the executed contract
+with Microsoft. ",,,,Requested in Requirement #1.,Requested in Requirement #1.,Open,,,Microsoft,Collection
+,,,,,,,,,,Microsoft,
+"Ensure that Microsoft Personal and Confidential Data is
+retained for no longer than necessary to Perform unless
+continued retention of the Microsoft Personal and/or
+Confidential Data is required by Law.
+","Supplier complies with documented retention policies or retention requirements specified by Microsoft in the contract (e.g., statement of work, purchase order).
+Supplier will furnish documentary evidence to
+Microsoft upon request",,,,"Attached document: 
+Backup Policy
+
+Attached Document: 
+User Account policy",Information Security Team/ Compliance Team,Open,,,Microsoft,Retention
+"Ensure that, at Microsoft’s sole discretion, Microsoft
+Personal and Confidential Data in the supplier’s possession or under its control is returned to Microsoft or destroyed upon completion of Performance or upon Microsoft’s request.
+
+Within applications, processes must be in place to ensure
+that when data is removed from the application either
+explicitly by users or based on other triggers like the age of the data, that it is securely deleted.
+
+When the destruction of Microsoft Personal or
+Confidential Data is necessary, the supplier must burn,
+pulverize, or shred physical assets containing Microsoft
+Personal and/or Confidential Data so that the information
+cannot be read or reconstructed.
+
+","Maintain a record of disposition of Microsoft Personal and Confidential Data (this can include returning to Microsoft for destruction).
+
+If destruction is required or requested by Microsoft, provide a certificate of destruction signed by an officer of the supplier.",,,"1. No request raised by Microsoft for data purging
+
+2. There is no request from Microsoft for deletion of Data since this data contains consumption of the amount allocated by Microsoft in the cafeteria to the Microsoft Employees, which might be needed to keep the track in future as well for audit purposes.
+
+Functionality to mark the user as active/inactive is provided to Microsoft (screenshot of Admin Dashborad)","Attached document: 
+
+Data-disposal-policy
+
+Point 14_Screenshot.png",Information Security Team/ Compliance Team,Open,,,Microsoft,Retention
+,,,,,,,,,,Microsoft,
+"Data Subjects have certain rights under Law, including
+the right to access, delete, edit, export, restrict, and
+object to Processing of their Personal Data (“Data
+Subject Rights”). When a Data Subject seeks to
+exercise their rights under Law in respect of their
+Microsoft Personal Data, the supplier must enable
+Microsoft to do the following or perform these actions
+on Microsoft’s behalf:
+",,,,,,,,,,Microsoft,Data Subjects
+"Assist Microsoft, through appropriate technical and
+organizational measures, where possible, to fulfill its
+obligations to respond to requests for Data Subjects
+seeking to exercise their Data Subject Rights without
+undue delay.
+Unless otherwise directed by Microsoft, Supplier will
+refer all Data Subjects who contact Supplier directly to
+Microsoft to exercise their Data Subject Rights","Supplier will maintain evidence of documented
+processes and procedures to support DSR execution.
+Supplier will maintain documented evidence of testing.
+Evidence will be available upon request by Microsoft",,,"Section 6,7,8 specifies the process and procedures are in place","Attached file:
+
+Data Protection Policy  
+dsr-procedures
+
+",Information Security Team/ Compliance Team,Open,,,Microsoft,Data Subjects
+"When responding directly to the Data Subject or when
+the Supplier provides a self- service online mechanism,
+the Supplier has processes and procedures in place to
+identify the Data Subject making the request.","Supplier has documented the method used to identify
+Microsoft Data Subjects.
+Supplier will provide documented evidence to
+Microsoft upon request.",,,,Requested in Requirement #15,Requested in Requirement #15,Open,,,Microsoft,Data Subjects
+"If asked by Microsoft to locate Microsoft Personal Data
+about a Data Subject that is not available through a
+self-service online mechanism, the Supplier will make a
+reasonable effort to locate the data requested and
+keep sufficient records to demonstrate that a
+reasonable search was made
+
+","Supplier will maintain documented evidence of
+procedures in place to establish whether Microsoft
+Personal Data is being held and will provide
+documentation to Microsoft upon request.
+Supplier maintains a record demonstrating the steps
+taken to meet Data Subject Right requests.
+The documentation includes,
+▪ date and time of the request,
+▪ actions taken to respond to the request, and record
+of when Microsoft was informed.
+Supplier will provide evidence of record keeping to
+Microsoft upon request.",,,,Requested in Requirement #15,Requested in Requirement #15,Open,,,Microsoft,Data Subjects
+"Supplier will communicate to the Data Subject the steps
+that person must take to gain access to or otherwise
+exercise their rights in regard to their Microsoft
+Personal Data.","Supplier will maintain documented evidence of the
+communications and procedures for access to
+Microsoft Personal Data. Supplier will maintain
+documented evidence and furnish same evidence to
+Microsoft upon request",,,,Requested in Requirement #15,Requested in Requirement #15,Open,,,Microsoft,Data Subjects
+"Record the date and time of Data Subject Rights
+requests and the actions taken by supplier in response
+to such requests.
+If their request is denied, at Microsoft’s direction,
+provide the Data Subject with a written explanation.
+Provide records of Data Subject requests to Microsoft
+upon request","Supplier maintains records of requests for access and
+documents changes made to Microsoft Personal Data.
+Document instances where requests are denied and
+retain evidence of Microsoft review and approval.
+Supplier will furnish evidence of record keeping of
+requests and denials of access to Microsoft Personal
+Data.",,,,Requested in Requirement #15,Requested in Requirement #15,Open,,,Microsoft,Data Subjects
+"The supplier must enable Microsoft or obtain a copy of
+the requested Microsoft Personal Data for the
+authenticated Data Subject in an appropriate printed,
+electronic or verbal format.","Supplier supplies Microsoft Personal Data to the Data
+Subject in a format that is understandable and in a form
+convenient to the Data Subject and the supplier.
+",,,We have not received any request regarding Microsoft personal data from any data subject,"Sample of a Data Subject Request and the related company correspondence.  (Help ticket, Call center call script, email chain, etc.)",Operations Team,Open,,,Microsoft,Data Subjects
+"The supplier must take reasonable precautions to
+ensure that Microsoft Personal Data released to
+Microsoft or an authenticated Data Subject cannot be
+used to identify another person.
+","Supplier will maintain documented evidence of
+procedures related to precautions to avoid
+identification of Data Subject contrary to Agreement
+terms. Supplier will furnish evidence to Microsoft upon
+request.",,,,Requested in Requirement #20,Requested in Requirement #20,Open,,,Microsoft,Data Subjects
+"If a Data Subject believes their Microsoft Personal Data
+is not complete and accurate, the supplier must
+escalate the issue to Microsoft and cooperate with
+Microsoft as necessary to resolve the issue
+","Supplier documents instances of disagreement and
+escalates issue to Microsoft.
+Supplier will furnish Microsoft with documentary
+evidence upon request",,,SLA,SLA document,Information Security Team/ Compliance Team,Open,,,Microsoft,Data Subjects
+,,,,,,,,,,Microsoft,
+"If the supplier intends to use a subcontractor to Process Microsoft Personal or Confidential Data, the supplier must:
+
+",,,,,,,,,,Microsoft,Disclosure to Third Parties
+"Obtain Microsoft’s express written consent prior to subcontracting services or making any changes concerning the addition or replacement of subcontractors.
+
+Note: Indicate your acceptance of this obligation even if you do not currently engage subcontractors but may in the future.
+","Validate that Microsoft Personal Data is Processed only by companies known to Microsoft as required in the applicable contract (e.g., statement of work,
+addendum, purchase order) or captured in the SSPA database.",,,,"Attached Document: 
+
+Microsoft SOW Agreement
+
+Attached the part of the agreement which specifies which mentions that HungerBox will not onboard any subcontractor without any written consent of Microsoft",Information Security Team/ Legal Team,Open,,AWS,Microsoft,Disclosure to Third Parties
+"Document the nature and extent of Microsoft Personal and Confidential Data sub-Processed by subcontractors, ensuring that the information collected is required to Perform.",Supplier maintains documentation concerning the Microsoft Personal and Confidential Data disclosed or transferred to subcontractors.,,,Subcontractors/3rd party to whom the data is shared does not exist for the solution given to Microsoft,Requested in requirement 23,Requested in requirement 23,Open,,,Microsoft,Disclosure to Third Parties
+"Where Microsoft is a controller of Microsoft Personal Data, ensure the subcontractor uses Microsoft Personal Data in accordance with a Data Subject’s stated contact preferences.","Demonstrate how a Microsoft Data Subject preference is utilized by subcontractors.
+Provide supporting documentation that includes the
+timeframe for a subcontractor to honor a preference change.
+",,,Subcontractors/3rd party to whom the data is shared does not exist for the solution given to Microsoft,Requested in requirement 23,Requested in requirement 23,Open,,,Microsoft,Disclosure to Third Parties
+Limit the subcontractor’s Processing of Microsoft Personal Data to those purposes necessary to fulfill the supplier’s contract with Microsoft.,"Supplier can provide documentation that shows the
+Microsoft Personal Data provided to a subcontractor is needed to Perform.
+",,,Subcontractors/3rd party to whom the data is shared does not exist for the solution given to Microsoft,Requested in requirement 23,Requested in requirement 23,Open,,,Microsoft,Disclosure to Third Parties
+"Review complaints for indications of any unauthorized or
+Unlawful Processing of Microsoft Personal Data.
+","Supplier can demonstrate systems and processes are in place to address complaints concerning
+unauthorized use or disclosure of Microsoft Personal Data by a subcontractor.
+",,,Subcontractors/3rd party to whom the data is shared does not exist for the solution given to Microsoft,Requested in requirement 23,Requested in requirement 23,Open,,,Microsoft,Disclosure to Third Parties
+"Notify Microsoft promptly upon learning that a
+subcontractor has Processed Microsoft Personal or
+Confidential Data for any purpose other than those related
+to Performance.",Supplier has provided the instruction and means for a subcontractor to report the misuse of Microsoft data.,,,Subcontractors/3rd party to whom the data is shared does not exist for the solution given to Microsoft,Requested in requirement 23,Requested in requirement 23,Open,,,Microsoft,Disclosure to Third Parties
+"Promptly take actions to mitigate any actual or potential
+harm caused by a subcontractor’s unauthorized or
+Unlawful Processing of Microsoft Personal and
+Confidential Data.
+",Supplier can demonstrate they have a plan and procedures in place should the misuse of Microsoft Personal and Confidential Data by a subcontractor occur.,,,Subcontractors/3rd party to whom the data is shared does not exist for the solution given to Microsoft,Incident response plan (enterprise wide or third party provider specific),Information Security Team/ Compliance Team,Open,,,Microsoft,Disclosure to Third Parties
+,,,,,,,,,,Microsoft,
+"The supplier must maintain the integrity of all Microsoft
+Personal Data, ensuring it remains accurate, complete and relevant for the stated purposes for which it was
+Processed. ","Supplier can demonstrate that procedures are in place to validate Microsoft Personal Data when it is collected, created and updated.
+
+Supplier can demonstrate that monitoring and sampling procedures are in place to verify accuracy on an on-going basis and correct, as necessary.
+",,,,,IT Team/Operations Team,Open,,,Microsoft,Quality
+,,,,,,,,,,Microsoft,
+"Supplier has an incident response plan that requires
+Supplier to notify Microsoft without undue delay upon
+becoming aware of a Data Breach or security vulnerability
+related to the supplier’s handling of Microsoft Personal or
+Confidential Data.
+
+Supplier must at Microsoft’s request or direction,
+cooperate with Microsoft in any investigation, mitigation,
+or remediation of the Incident, including providing
+Microsoft with data, information, access to Supplier
+personnel, or hardware needed to conduct a forensic
+review. 
+",Supplier has an incident response plan which includes a step to notify customers (Microsoft) as described in this section.,,,,"Attached Document:
+
+Incident Management Policy
+",Information Security Team/ Compliance Team,Open,,,Microsoft,Monitoring and Enforcement
+"Not issue any press release or any other public notice
+that relates to a Data Breach.
+",Supplier agrees to fulfill this requirement if the event occurs.,,,,Requested above in requirement 31,Requested above in requirement 31,Open,,,Microsoft,Monitoring and Enforcement
+"Implement a remediation plan and monitor the
+resolution of each Data Breach to ensure that
+appropriate corrective action is taken on a timely basis.",Supplier has documented procedures it will take to respond to a Data Breach to closure.,,,,Requested above in requirement 31,Requested above in requirement 31,Open,,,Microsoft,Monitoring and Enforcement
+"Where Microsoft is a controller of Microsoft Personal Data, establish a formal complaint process for responding to all data protection complaints involving Microsoft Personal Data.
+
+
+","Supplier has the means of receiving complaints involving Microsoft Personal Data and has a
+documented complaint procedure to address complaints. ",,,,Data Subject complaint process/procedures,Information Security Team/ Compliance Team,Open,,,Microsoft,Monitoring and Enforcement
+,,,,,,,,,,Microsoft,
+"The supplier must establish, implement, and maintain an
+information security program that includes policies and
+procedures, to protect and keep secure Microsoft Personal and Confidential Data in accordance with good industry practice and as required by Law.
+
+The supplier’s security program must meet the standards
+captured below, requirements 38-56.  
+","A valid ISO 27001 or SOC 2 report with security are acceptable substitutes for Section J. Contact SSPA to apply this substitution.
+
+Note: You will need to provide documentation describing the scope of these certifications/reports.
+",,,,"Attached Document: 
+
+ISO 27001 certification
+
+Statement of Applicability is mentioned in the certificate itself",,,,,Microsoft,Security
+"Perform annual network security assessments that include:
+ review of major changes to the environment such as a new system component, network topology, firewall rules,
+ conduct vulnerability scans, and
+ maintain change logs.
+","Supplier has documented network assessments, change logs and scan results.
+
+The required change logs must track changes, provide information regarding the reason for the change, and include the name and title of the designated approver.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Supplier to define, communicate and implement a mobile device policy that secures, and limits use of Microsoft Personal or Confidential Data accessed or used on a mobile device.",Supplier demonstrates use of a compliant mobile device policy where Microsoft Personal or Confidential Data Processing requires use of a mobile device.,,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+All assets used to support Performance must be accounted for and have an identified owner. The supplier is accountable for maintaining an inventory of these information assets; establishing acceptable and authorized use of the assets; and providing the appropriate level of protection for the assets throughout their life cycle.,"Inventory of device assets used to support Performance. The inventory of these assets to include,
+ location of device,
+ data classification of the data on the asset,
+ record of asset recovery upon termination of employment or business agreement, and
+ record of disposal of data storage media when it is no longer required.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Establish and maintain access rights management
+procedures to prevent unauthorized access to any
+Microsoft Personal or Confidential Data under supplier
+control","Supplier demonstrates it has implemented an access
+rights management plan that includes,
+▪ access control procedures,
+▪ identification procedures,
+▪ lockout procedures after unsuccessful attempts,
+▪ robust parameters for selecting authentication
+credentials, and
+▪ deactivation of user accounts on employment
+termination within 48 hours, and
+o password controls, including: 1) password
+reset as often as necessary but no longer
+than every 70 days
+o or 2) when employing the use of biometric
+logins (only for non-privileged user
+accounts): password changes every 365
+days, automatically force users (including
+administrators) to change user account
+passwords upon expiration, ensure antispoofing controls are configured.
+Supplier demonstrates that it has an established
+process to review user access to Microsoft Personal and
+Confidential Data, enforcing the principle of least
+privilege. The process includes,
+▪ clearly defined user roles,
+▪ procedures to review and justify approval of access
+to roles, and
+▪ test that users within roles with access to Microsoft
+data have a documented justification for being in
+the group/role.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Define and implement patch management procedures
+that prioritize security patches for systems used to
+Process Microsoft Personal or Confidential Data. These
+procedures include,
+▪ defined risk approach to prioritize security patches
+▪ ability to handle and implement emergency
+patches,
+▪ applicability to Operating System and server
+software such as application server and database
+software,
+▪ document the risk the patch mitigates and track
+any exceptions, and
+▪ requirements for retirement of software that is no
+longer supported by the authoring company
+","Supplier can demonstrate an implemented patch
+management procedure that meets this requirement
+and covers, at a minimum, the following.
+▪ Assignment of severity to inform prioritization.
+(Severity definitions are documented.)
+▪ Documented procedure to implement emergency
+patches.
+▪ Validate, there is no use of operating systems that
+are no longer supported by the authoring
+company.
+▪ Patch management records which track approvals
+and exceptions.",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Install anti-virus and anti-malware software on equipment connected to the network used to Process Microsoft Personal and Confidential Data, including servers, production and training desktops to protect against potentially harmful viruses and malicious software applications.
+
+Update the anti-malware definitions daily or as directed by the anti-virus/anti-malware supplier. Note: This applies to all operating systems including Linux.
+","Records exist to show use of anti-virus and anti- malware software is active.
+
+Note: This requirement applies to all operating systems.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+Suppliers developing software for Microsoft must incorporate security-by-design principles in the build process.,"Supplier technical specification documents include check points for security validation in their development cycles.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Employ a Data Loss Prevention (“DLP”) program to prevent intrusions, loss, and other unauthorized activity. Data must be properly classified, labeled and protected and supplier must monitor information systems in use where Microsoft Personal or Confidential Data is Processed for intrusions, loss, and other unauthorized activity. The DLP program, at a minimum,
+ requires use of industry standard host, network, and cloud-based Intrusion Detection Systems
+(“IDS”) if you retain Microsoft Personal or
+Confidential Data,
+ requires implementation of advanced Intrusion Protection Systems (“IPS”) configured to monitor and actively stop data loss,
+ in the event a system is breached, requires analysis of the system to ensure any residual vulnerabilities are also addressed,
+ describe required procedures for monitoring system compromise detection tools,
+ establishes an incident response and management process required to be performed when a Data Breach event is detected, and
+ requires communications (to all supplier employees and subcontractors being offboarded from
+supplier’s Performance) regarding unauthorized downloading and use of Microsoft Personal or Confidential Data.
+","Documented DLP program deployed with procedures in place to prevent intrusions, loss, and other unauthorized activity (and at a minimum, all items specified in this section).",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Promptly communicate Investigation results from incident response to senior management and to Microsoft.
+",Systems and processes must be in place to communicate incident response investigation results to Microsoft.,,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"System administrators, operations staff, management and third parties must undergo annual security training.
+","Establish a security training program that includes,
+ annual training for incident response, and
+ simulated events and automated mechanisms to facilitate effective response to crisis situations.
+ Incident prevention awareness such as risks associated with downloading malicious software.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"The supplier must ensure that backup planning processes protect Microsoft Personal and Confidential Data from unauthorized use, access, disclosure, alteration and destruction.","Supplier can demonstrate documented response and recovery procedures detailing how the organization will manage a disruptive event and will maintain its information security to a predetermined level based on management approved information security continuity objectives.
+
+Supplier can demonstrate that it has defined and implemented procedures to periodically back up, securely store, and effectively recover critical data.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Establish and test business continuity and disaster recovery plans.
+","A disaster recovery plan must include the following.
+ Defined criteria to determine if a system is critical to the operation of the supplier's business.
+ List critical systems based on the defined criteria that must be targeted for recovery in the event of a disaster.
+ Defined disaster recovery procedure for each critical system that ensures an engineer who does not know the system could recover the application in under 72 hours.
+ Annual (or more frequent) testing and review of disaster recovery plans to ensure recovery objectives can be met.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+Authenticate the identity of an individual before granting that individual access to Microsoft Personal or Confidential Data and ensure that the access is limited to the particular individual’s scope of activity permitted to support Performance.,"Ensure that all user IDs are unique and that each has an industry standard authentication method such as Azure Active Directory.
+Elevated access (administrative or other types of enhanced privileges) must require the use of a second factor, such as a smart card or phone-based authenticator.
+
+Documented information security program covering process for ensuring that all supplier employees’ and subcontractors’ access to Microsoft Personal or Confidential Data is no more or longer than necessary to support Performance.
+
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"The supplier must protect all data Processed in connection with its Performance in transit across networks with encryption using Transport Layer
+Security (“TLS”) or Internet Protocol Security (“IPsec”).
+
+These methods are described in the NIST 800-52 and NIST 800-57; an equivalent industry standard can also be used.
+
+Supplier must refuse delivery of any Microsoft Personal or Confidential Data transmitted via unencrypted means.
+","The process of creating, deploying, and replacing TLS or other certificates must be defined and enforced.",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"All supplier devices (laptops, workstations, etc.) that will access, or handle Microsoft Personal or Confidential Data must employ disk-based encryption.","Encrypt all devices to meet Bitlocker or another industry equivalent disk encryption solution for all client devices used to handle Microsoft Personal or Confidential Data.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"Systems and procedures (using current industry standards such as that described in the NIST 800-111 standard) must be in place to encrypt at rest (when stored) any and all Microsoft Personal and/or Confidential Data, including any and all of the following:
+ credential data (e.g., username/passwords)
+ payment instrument data (e.g., credit card and bank account numbers)
+ immigration related personal data
+ medical profile data (e.g., medical record numbers or biometric markers or identifiers, such as DNA, fingerprints, eye retinas and irises, voice patterns, facial patterns and hand measurements, used for authentication purposes)
+ government issued identifier data (e.g., social
+security or driver’s license numbers)
+ data belonging to Microsoft customers (e.g., SharePoint, O365 documents, OneDrive customers)
+ material related to unannounced Microsoft products
+ Date of Birth
+ Children’s profile information
+ real time geographic data
+ physical personal (non-business) address
+ personal (non-business) phone numbers
+ religion
+ political opinions
+ sexual orientation/preference
+ security question answers (e.g., 2fa, password reset)
+ mother's maiden name
+",Check that the Microsoft Personal and Confidential Data listed in this row is encrypted at rest.,,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+"When processing credit cards on Microsoft’s behalf, adhere to the applicable credit card handling standards per card issuer.","Demonstrate compliance by providing a Payment Card Industry Data Services Standard (“PCI-DSS”) certification annually.
+
+Submit PCI DSS certifications to SSPA.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+The supplier must store Microsoft physical assets in an access-controlled environment.,"Systems and processes must be in place to manage physical access to digital, hard copy, archival, and backup copies of Microsoft data.
+Chain of custody must be tracked for the movement and destruction of physical media containing Microsoft data.
+
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security
+Anonymize all Microsoft Personal Data used in a development or test environment.,"Microsoft Personal Data must not be used in development or test environments; when there is no alternative, it must be anonymized to prevent identification of Data Subjects or misuse of Personal Data.
+
+Note: Anonymized data is different from Pseudonymized data. Anonymized data is data that does not relate to an identified or identifiable natural person where the data subject of the personal data is not or no longer identifiable.
+",,,,,Information Security Team/Compliance Team,Open,,,Microsoft,Security

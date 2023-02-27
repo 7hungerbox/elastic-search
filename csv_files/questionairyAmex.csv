@@ -1,0 +1,421 @@
+Question,Response,Comment,attachment(s),Follow-up Question,Follow-up Response,,EA Result,EA Comments
+"05 - Is there an information Security Program?
+(The Custodian is the person responsible for overseeing and writing the information security program)
+If YES: 
+- Provide the name an title of the Custodian
+- Provide the date the Security Program was last published
+Describe how the information security program and its policies/processes is managed
+If NO: Indicate the controls in place to ensure program, policies and processes are properly managed/maintained.
+If N/A: Elaborate why this is not applicable.",Yes,Kalyan Singh Rathore (DPO),,,,,,
+"06 - Is there an Information Security Program policy and what standard framework is it based on?
+(e.g. ISO 27001/NIST CSF/ HiTrust CSF, etc.)
+If YES: Who owns the policy, when was it last updated, and what is the policy entitled?
+If NO: Describe the rationale for not having such a policy in place.
+if N/A: Elaborate why having such a policy is not applicable.",Yes,ISO27001,Information Security Policy attached.,,,,,
+"501 - Is there a Data Loss Prevention (DLP) process with supportin policies and technical procedures?
+- Describe the risk based approach to DLP on executing DLP technology;
+If YES: Who owns the policy, when was it last updated, and what is the policy entitled?
+If NO: Describe the rationale for not having such a policy in place.
+if N/A: Elaborate why having such a policy is not applicable.",Yes,,Data Loss Prevention Policy attached.,,,,,
+"502 - Is there a Threat Intelligence process?
+(e.g., monitoring dark web for credential leakage, feeding TI into software development   & application maintenance )
+If YES: Who owns the policy, when was it last updated, and what is the policy entitled?
+If NO: Describe the rationale for not having such a policy in place.
+if N/A: Elaborate why having such a policy is not applicable.",Yes,Policy is reviewed yearly atleast.,,,,,,
+"30 - Are policies, standards, and procedures, reviewed and approved by leadership at least annually?
+If YES: Describe how your company's policies, standards and procedures are established, maintained, published and executed.
+If NO: Describe how your company establishes, maintains, and executes information security standards and procedures.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"35 - Is there an information security risk assessment process which incorporates process/information owner oversight?
+If YES: Provide an overview of the risk assessment process and methodologies
+If NO: How will risk be assessed?
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"43 - Have designated custodians for all sensitive information been identified along with defined responsibilities?
+If YES: Describe the policy, standard or procedure documenting how information ownership is determined. 
+If NO: Indicate the controls in place to ensure information is properly  classified, labeled, shared and used.
+if N/A: Elaborate why this is not applicable.",Yes,,Governance Policy attached.,,,,,
+"49 - Are workstations and devices used to store, process or transmit any sensitive data locked or logged off when unattended, and physically secured when not in use?
+If YES: Describe the process controls (e.g., auto-locking, cable locks, secure containers, etc.).
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,All sensitive data remains inside our VPC inside our cloud environment,,,,,,
+"52 - Has whole disk encryption for workstations & laptops been implemented
+If YES: Describe the encryption solution (product and version) with algorithm and key length used and the process to ensure all laptops with sensitive information have the encryption solution installed.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Data encryption policy attached,,,,,
+"57 - Is a documented process or procedure in place to ensure sensitive information is identified and receives the correct label per the information classification scheme?
+(Personal Data (sometimes referred to as Personally Identifiable Information (PII) or personal information) is generally classified as AXP Restricted (or, external to AXP: as ""sensitive"").)
+If YES: Describe the procedure used to label information.
+If NO: Describe how the controls associated with the information are appropriate, per its information classification.
+if N/A: Elaborate why this is not applicable.",Yes,,Data Classification Policy attached.,,,,,
+"58 - Are documented controls in place to protect sensitive information from inappropriate disclosure, misuse and unauthorized access?
+Are information data classifications displayed?
+If YES: Describe the information protection process controls used to support various classifications of information.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Data Protection Policy attached.,,,,,
+"64 - Are controls in place to securely dispose of data (both for media AND digital data)?
+Secure disposal means not being able to recover the data once disposed.
+If YES: Describe the documentation.
+If NO: Provide business justification. 
+if N/A: Elaborate why this is not applicable.",Yes,,Data Disposal Policy attached.,,,,,
+"66 - Is sensitive information appropriately protected, according to its classification, as it is transported or stored (including physical or electronic)?
+If YES: Describe the information transmission processes and their controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Data Protection Policy attached.,,,,,
+"69 - Are controls in place to ensure that  systems and/or processes prohibit the use of removable media?
+If YES: Describe the controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"83 - Is there a process or procedure for reporting, responding and resolving information security incidents?
+- including reporting of security incidents to American Express EIRP?
+- including but not limited to lost or stolen equipment (i.e., laptops, workstations)?
+(An information security incident is any event that intentionally or unintentionally results in unauthorized or inappropriate collection, use, access, disclosure, modification or exposure of company systems, applications, or data.)
+If YES: Describe the process or procedure.
+How will such events be reported to AXP's Enterprise Incident Response Program (EIRP)?
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Incident Management Policy attached.,,,,,
+"99 - Is there an Access Control Standard that describes how access to information is managed?
+If YES: Describe the documentation.
+If NO: Provide business justification or any technical limitations, and identify any compensating controls. 
+if N/A: Elaborate why this is not applicable.",Yes,,Data Access Policy attached.,,,,,
+"100 - Are there rules or principles defined for assigning access to information systems (i.e. concept of least privilege, role-based, need-to-know)?
+If YES: Describe the process used to ensure access is granted based upon these principles.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Governance Policy attached.,,,,,
+"101 - Are there controls in place that ensure access to information is approved or permitted by the information resource owner or delegate?
+If YES: Describe the process and controls that ensure access is granted only upon approval by the appropriate individual.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,Any data transfer from our VPC to outside needs to go through approval process goverend by CTO,,,,,,
+"102 - Are there controls that ensure access to information is removed when it is no longer required?
+If YES: Describe the process and controls that ensure access is removed when no longer required.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Data Disposal Policy,,,,,
+"104 - Are user access controls for privileged (administrator) accounts reviewed periodically for accuracy and appropriateness and granted on the principle of least privilege?  
+(Note: Administrative (Privileged) Access is access that allows the ability to change, modify, administer, configure, manage, secure and/or monitor computing systems, network accounts, services and/or networks.
+Typical roles include system administrators, network administrators and technology staff performing computing account administration.)
+If YES: Describe the process and controls for privileged access that are unique from basic access. 
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,Privileged Accounts are monitored and managed at centralised level and access for same is given to very limited set of users . This access is verified and approved every three months or at departure of any employee from technology team.,,,,,,
+"111 - Is Segregation Of Duties documented?
+If YES: Describe the documentation.
+If NO: Provide business justification or any technical limitations. 
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"117 - Is each ID associated with a single accountable individual or role and there controls in place to prevent sharing of IDs?
+(ID Type Descriptions:
+ - User IDs: identify an individual person
+ - Service IDs: identify a technical entity; for automated processes; may also be known as application, automation or faceless IDs
+ - System IDs: identify a technical entity; native to hardware and/or software (i.e., they exist by default as part of the product installation)
+ - Computer IDs: identify a physical or virtual computing device (e.g., laptop, server))
+If YES: Describe the ID assignment and tracking process and its controls for individual accountability.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,"All Access in system is at USer ID level and we do not have any common service, system id in place for any purpose.",,,,,,
+"118 - Are IDs compliant with the following requirements?
+ - used for the intended purpose
+ - controlled through a documented ID management lifecycle
+ - use one or more approved authentication credentials
+ - have a documented business need or justification for the ID and/or the entitlements
+ - ensure that transactions or activities performed are associated with the accountable individual
+If YES: Describe the ID management process and its applicable controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,All access to system is at user id level and access for same is reviewed and revised via roles and scopes management,,,,,,
+"119 - Are User IDs compliant with the following requirements?
+ - associated with a unique and active identifier (e.g., Employee or Contractor Number)
+ - disabled at the end of the session, when used for testing or training purposes
+ - disabled or suspended when inactive for no more than 180 days
+ - deleted when inactive for no more than 365 days
+ - disabled upon termination of an individual's employment or business relationship
+(User IDs identify an individual person.)
+If YES: Describe the ID management process and its applicable controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"120 - Are user access rights regularly reviewed and recertified, in an auditable manner, to confirm access is still necessary?
+If YES: Describe the ID access review process and its applicable controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"133 - Are controls in place to effectively manage passwords for employee-facing systems?
+If YES: Describe the documentation.
+If NO: Provide business justification or any technical limitations. 
+if N/A: Elaborate why this is not applicable.",Yes,We have centralised SSO system for access management. Password management/rules are set at same platform.,,,,,,
+"136 - Are there controls to ensure that authentication credentials are not shared with unauthorized parties or programmed into scripts or function keys?
+If YES: Describe the controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,We use MDM to track active devices and access is allowed on those devices only.,,,,,,
+"137 - Are passwords configured to require a minimum of 8 characters, 
+and to contain at least 3 out of 4 of the following?
+ - special character
+ - uppercase letter
+ - lowercase letter
+ - number
+If YES: Describe password strength: Indicate the minimum password length and composition requirements (combination of letters, numbers, special characters).
+If NO: Describe password strength: Indicate the minimum password length and composition requirements (combination of letters, numbers, special characters).
+Describe any compensating controls that address AXP's requirement.
+if N/A: Elaborate why this is not applicable.",Yes,,Password Policy attached.,,,,,
+"143 - Do authentication credentials meet the following requirements?
+ - stored separately from systems data
+ - appropriately protected (when stored and during use)
+ - obscured when presented with the associated identifier (e.g., User ID)
+ - transmitted or delivered in separate communications from their associated identifier (e.g., User ID)
+ - not programmed into scripts, function keys or embedded in program or object code
+ - not equal to or contain the associated identifier (e.g., User ID)
+If YES: Describe the how these requirements are enforced.
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,Authentication and authorization system is managed at centralised place at different environment,,,,,,
+"146 - Do one-time or single occurrence authentication credentials meet the following requirements?
+ - expire upon first use or within the designated lifespan when unused, based on the assessed risk (but no more than 72 hours after creation), whichever comes first
+ - be unpredictable
+ - meet the same password length and complexity requirements as defined for 'regular' User IDs
+If YES: Describe the how these requirements are enforced.
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",N/A,We do not support single occurance account,,,,,,
+"147 - Do hyperlinks (e.g., URLs) used as a single occurrence authentication credential expire upon first use or no more than 72 hours after creation, whichever comes first?
+If YES: Describe the how these requirements are enforced.
+If NO: Provide compensating controls.
+if N/A: Elaborate why this is not applicable.",N/A,We do not support single occurance account,,,,,,
+"149 - Is wireless access to information systems restricted?
+If YES: Describe the controls.
+Note: Wireless access to information systems must be authorized through a company-managed wireless supplicant.
+If NO: Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"154 - Are controls in place to lock the user interface of a device after a maximum 30 minute period of inactivity (reauthentication required for unlock)?
+If YES: Describe the documentation.
+If NO: Provide business justification and/or identify compensating controls. 
+if N/A: Elaborate why this is not applicable.",Yes,We manage users device via MDM and set rules accordingly.,,,,,,
+"163 - Is information created, stored and managed using only approved systems, equipment and software, with controls that ensure such information is used only for intended business purposes?
+If YES: Describe the process controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,"All Access to systems are available through approved channels like APIs, SFTP and others. Process for using tools are pre approved by management",,,,,,
+"169 - Have security tools been installed that protect information resources (desktops, laptops and servers) against malicious activity (such as IDS - Intrusion Detection Systems)?
+(Security tools must detect, prevent, remove and recover from malicious activity conducted against desktops, laptops and servers.)
+If YES: Describe the protection solutions.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,We use antivirus and malware detection tools on laptops and servers,,,,,,
+"170 - Do installed security tools meet the following criteria?
+- Configured to run at startup and run continuously
+- Configured to detect and protect against malicious activities
+- Maintained and periodically evaluated for updates
+- Managed by those with proper authority and permissions
+(Security tools must detect, prevent, remove and recover from malicious activity conducted against  desktops, laptops and servers.)
+If YES: Describe the process used to ensure use and maintenance of approved security tools.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"175 - Has remote access management been implemented?
+If YES: Describe the documentation.
+If NO: Provide business justification or any technical limitations. 
+if N/A: Elaborate why this is not applicable.",Yes,Remote access of systems are provided to selected set of users.,Remote Access Policy attached.,,,,,
+"177 - Has monitoring and managing network traffic been documented?
+If YES: Describe the documentation.
+If NO: Provide business justification or any technical limitations. 
+if N/A: Elaborate why this is not applicable.",Yes,"Application monitoring and tracking is done via monitoring using AWS Firewall, arrali and AWS Guardduty",,,,,,
+"178 - Is network traffic monitored, controlled, managed and periodically evaluated to identify vulnerabilities, anomalies and/or its capacity?
+If YES: Describe the process and identify all applicable controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,Application monitoring and tracking is done via monitoring using arrali and AWS Guardduty,,,,,,
+"179 - Do firewall controls permit only approved devices access to internal networks?
+If YES: Please describe your firewall controls and how there are deployed.
+(For example, do network devices deny all access by default, and only allow the minimum communication needed to support business).
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,Firewall setup is such that all access is denied by default and approved access are allowed,,,,,,
+"184 - Is Vulnerability scanning of applications/servers/network being performed
+- identifying security gaps and known weaknesses (e.g. baseline configuration changes, missing patches, End of Life status, invalid registry, etc.?
+- scanning both Internet and Intranet facing applications/servers/network.)
+If YES: Describe the process used to manage scanning and testing outcomes.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,We perform internal and external VAPT test on application. External tests are performed atleast once in a year,,,,,,
+"503 - Is periodic Penetration testing performed on applications/servers/network,  
+(The scan must be done on everything exposed to the Internet/Intranet and/or production/production-replicas. This includes both Internet and Intranet facing applications/servers/network.)
+If YES: Describe the process and who performs the penetration testing.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"185 - Are identified network vulnerabilities remediated within timelines appropriate to the risk?
+If YES: Describe the remediation process used, including timelines.  
+Identify the controls which ensure remediation is performed as per the risk.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"186 - Are documented processes in place to track and account for network devices, to ensure that only legal, licensed and approved IT assets are deployed in the environment throughout their lifecycle?
+If YES: Describe the process documentation and implemented solution.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,Our systems are deployed at AWS and we do not use any of our own hardware,,,,,,
+"192 - Is all end user access to the Internet conducted through a user proxy?
+If YES: Describe the controls.
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",No,,,,,,,
+"193 - Are wireless network segments segregated from the internal networks using VLANs or other appropriate technologies?
+If YES: Describe the controls.  Indicate how accessing and usagey is tracked/loggged
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"194 - Is direct network access to Production and Non-Production servers restricted?
+If YES: Describe the controls in place.
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"195 - Is network communication between your Production and non-Production environments restricted?
+If YES: Describe the controls used to restrict their communication (e.g., firewall rules and router access control lists).
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"197 - Are firewalls used when connecting your trusted network to an untrusted network?
+If YES: Describe the process controls.
+If NO: Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"200 - Are rules configured to deny all traffic except that is which explicitly identified and authorized?
+If YES: Describe their characteristics.
+If NO: Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"201 - Are firewall rules reviewed and updated on a periodic basis to ensure only proper rules are set?
+(Reviews should be performed at least annually, and when significant changes occur.)
+If YES: Describe the process.  Who performs the reviews and maintenance, and how frequently?
+If NO: How will rules be effectively and appropriately maintained?
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"203 - Does remote access to information systems require valid business justification and appropriate leadership approval?
+If YES: Describe the process controls used to ensure leadership approval is required for granting remote access to all users.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Remote Access Policy attached.,,,,,
+"225 - Does the cryptographic key management lifecycle meet these requirements?
+- formally documented 
+- have an identified individual custodian?
+- describe key management services and processes  
+- based on auditable and verifiable processes  
+- securely handled and stored per their classification
+- include appropriate segregation of duties
+If YES: Identify how the key management lifecycle is documented, and provide the name and title of the documentation owner. 
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,We use AWS KMS for same,,,,,,
+"227 - Are symmetric cryptographic operations performed using an industry-appropriate algorithm and key length?
+If YES: Indicate if this system or process supports a Payment Card Industry product. Please note:  this question is in scope for all data at risk.
+Identify and describe the algorithm(s), key length(s), and maximum key life duration(s) or expiry date(s).
+If NO: Indicate if this system or process supports a Payment Card Industry product.
+Provide the business justification.
+if N/A: Elaborate why this is not applicable..",Yes,We do not store any CC /payment sensitive data on our systems,,,,,,
+"229 - Are hashing operations performed using an industry-appropriate algorithm and authentication code, as required? (FYI: Hashing can be used to protect passwords such as PBKDF2, Scrypte, Bcrypt, NO OWF, etc.)
+If YES: Indicate if this system or process supports a Payment Card Industry product. Please note:  this question is in scope for all data at risk.
+Identify and describe the algorithm(s) and authentication code(s).
+If NO: Indicate if this system or process supports a Payment Card Industry product.
+Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,We do not store any CC /payment sensitive data on our systems,,,,,,
+"230 - Are digital signatures performed using an industry-appropriate algorithm and key length? (FYI:  Digital signatures are used in asymmetric cryptography implementations, such as secured email).
+If YES: Indicate if this system or process supports a Payment Card Industry product. Please note:  this question is in scope for all data at risk.
+Identify and describe the algorithm(s) and key length(s).
+If NO: Indicate if this system or process supports a Payment Card Industry product.
+Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"243 - Do software and applications used to support AXP business follow established processes that ensure adherence to the following?
+ - Properly authorized, acquired or created through  processes that include security criteria and evaluation
+ - Designed and implemented in accordance with security requirements
+ - Configured to address known vulnerabilities and threats in a timely manner
+ - Periodically re-evaluated in order to address changes in the vulnerability landscape
+If YES: Describe the process used to manage the implementation of software and applications, and identify the process controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"253 - Are regular static code analysis, vulnerability assessments and penetration tests conducted, to ensure that at a minimum there are no un-remediated OWASP Top 10 and SANS, CIS Top 25 vulnerabilities?
+If YES: Describe the process controls.
+If NO: Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"254 - Are the results of penetration tests tracked, remediated and retested until no Critical, High or Medium issues remain?
+If YES: Describe the process controls.
+If NO: Provide the business justification.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"267 - Is there documentation that identifies the controls in place to effectively manage software patches and updates?
+If YES: Describe the documentation.
+If NO: Provide business justification or any technical limitations. 
+if N/A: Elaborate why this is not applicable.",Yes,,Patch Management Policy attached.,,,,,
+"268 - Are software maintenance patches available in a timely manner, evaluated for applicability and implemented as appropriate, with testing performed prior to installation?
+If YES: Describe the processes used to evaluate software patches for applicability and to perform testing.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"277 - Is the test data used to perform software testing created from scratch, and not from production data?
+If YES: Describe the process used to create test data, and identify all applied controls.
+If NO: Describe the alternative data source used, and identify all applied controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"284 - Are system, application and security logging enabled in production and non-production systems?
+If YES: Describe how logs are managed, for both production and non-production environments, and identify all applicable controls.
+If NO: What are the gaps in logging?  What systems (production and non-production), applications and environments do NOT have logging?  What types (system, application, security)?  What compensating controls are in place?
+if N/A: Elaborate why this is not applicable.",Yes,All application logs are managed at centralised repository at AWS Cloudwatch for real time analsysis. Older logs are kept at AWS S3 in encrypted form for later analysis,,,,,,
+"289 - Are logs appropriately retained, managed and destroyed?
+- Centralized logs should be kept for 1 year.  Where centralized logging capabilities do not exist, log events may be stored locally for a minimum of 4 month
+If YES: Describe the log retention process and identify all applicable controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+If N/A: Elaborate why this is not applicable.",Yes,All application logs are managed at centralised repository at AWS Cloudwatch for real time analsysis. Older logs are kept at AWS S3 in encrypted form for later analysis,,,,,,
+"291 - Does the activity logging process meet these general requirements?
+ - Data logs record user and system activities
+ - Level of logging detail supports business and governance processes
+ - Logs are reviewed periodically, based on risk and information classification
+ - Log anomalies are responsed to in a manner appropriate to the risk
+(IF ANY OF THESE REQUIREMENTS ARE NOT MET,
+you must answer the question ""No."")
+If YES: Describe the process and controls.
+If NO: Describe any gaps and compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"300 - Are systems and applications hardened to secure and protect from misuse, unauthorized disclosure and corruption?
+(Sample Controls include 
+- minimize the attack surface in web browsers and email systems
+- configuration management and change control process to secure configurations of laptops, servers, and workstations
+- minimize use of ports, protocols, and services on networked devices)
+If YES: Describe the system and process controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"311 - Is there documentation that identifies the controls in place to effectively perform change management?
+(Changes to any production environment must be documented and follow an approved change management process, incorporating a separation of duties for change management requestors, approvers, and implementers.)
+If YES: Describe the documented controls.  Indicate the separation of duties for change management requestors, approvers, and implementers.
+If NO: Provide business justification or any technical limitations. 
+if N/A: Elaborate why this is not applicable.",Yes,,Change Management Policy attached.,,,,,
+"312 - Is there a policy which prohibits the installation of unauthorized hardware or software?
+If YES: Describe the policy, process or procedure documentation.
+If NO: How is risk of unauthorized hardware and software managed?
+if N/A: Elaborate why this is not applicable.",Yes,,,,,,,
+"316 - Do system-to-system sessions meet all of these requirements?
+ - are appropriately authenticated
+ - have inactivity timeout mechanisms in place to manage system-to-system session abandonment, timeout and required logging events
+ - have a maximum period of inactivity of 60 minutes
+ - re-authenticate to re-establish a timed out sessions
+ - are appropriately logged
+ - are appropriately encrypted
+(A session is a semi-permanent interactive information interchange (also known as a dialogue, a conversation or a meeting) between two or more communicating devices, or between a computer and user.)
+If YES: Describe the system-to-system session controls in place.
+If NO: Identify the gaps and describe any compensating controls.
+If N/A: Elaborate why this is not applicable.",N/A,,,,,,,
+"354 - Are supplier information security risk assessments performed for third parties that access, process, collect, create or store AXP information, and periodically thereafter based upon assessed risk?
+If YES: Describe the process controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",N/A,Client data will be handled completely by Hungerbox on AWS,,,,,,
+"356 - Do emails sent as part of a service, to AXP or on AXP’s behalf to other parties, utilize strong email authentication controls?
+If YES: Describe the email authentication controls.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",N/A,We do not provide any service on behalf of AXP to its clients or other users.,,,,,,
+"362 - Are employees, contractors and third parties trained on their responsibilities for securing and protecting information resources?
+If YES: Describe the Information Security training program.
+Please specify what company produces/provides the training, and to what degree it covers phishing and other social engineering attacks.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Security Awareness and Training Policy attached.,,,,,
+"504 - Are remote Workstations managed to the same standards as in-office workstations with respect to: Build, Configuration, Hardening, Patching, Anti-Virus/Malware, Central logging/monitoring/alerting?
+If YES: Describe the standards, implementation and ownership.
+If NO: Provide the business justification or indicate how this gap will be addressed.
+if N/A: Elaborate why this is not applicable.",Yes,All our systems are assumed to be remote and all processes are build keeping it in mind.,,,,,,
+"505 - If Workstations are connecting to a VDI instance 
+- have the USB ports be disabled for the VDI
+- removable storage be disabled
+- printing 
+- data movement across unauthorized boundaries be prohibited (e.g. screen captures, copy/paste from inside VDI to local system, etc.)
+If YES: Describe the controls that ensure this requirement is met.
+If NO: Describe any gaps and their compensating controls.
+if N/A: Elaborate why this is not applicable.",N/A,We do not use VDI instances,,,,,,
+"506 - Are weekly Vulnerability Scans performed on remote clients and Internet exposed services?  (Also detail the frequency of scanning and what being used to perform the scans)
+If Yes, describe frequency, scope of scanning and what is being used to perform the scans.
+If No, describe reasoning as to why scanning is not being performed and any compensating controls
+If N/A, elaborate why this is not applicable.",Yes,"Our internal VAPT scans run on system at every change in system infra. Apart from this, we use AWS Inspector to monitor any CVE Common Vulnerability",,,,,,
+"507 - Are personal devices (BYOD) used to performing services for AXP?   (If BYOD is not used mark as N/A)
+- Is there a remote wipe capability for the BYOD device?  (If BYOD is not used mark as N/A)
+- Can BYOD users be De-Enrolled?  (If BYOD is not used mark as N/A)
+- Is BYOD connectivity through a VPN?  (If BYOD is not used mark as N/A)
+- Is security event monitoring of BYOD devices done?  (If BYOD is not used mark as N/A)
+- Is MFA implemented for BYOD devices?  (If BYOD is not used mark as N/A
+If Yes, specify methods used for remote wipe, de-enrolling, VPN.
+If NO, State that BYOD devices are not used in association with providing services for AXP
+If N/A, elaborate why this is not applicable, for example, BYOD is not used.",Yes,None of BYOD device can connect to Application Systems. BYOD machines are managed via MDM and can be wiped out if required,,,,,,
+"508 - Is remote connectivity restricted to be only via an encrypted VPN with no split horizon?
+If Yes, specific encryption used.
+If No, describe reasoning why split tunneling must be supported and list how explicit white listing of destinations is accomplished along with any compensating controls
+If N/A, elaborate why this is not applicable. No access to VPN should be required for the service.",Yes,Any connection to our AWS instances/VPC is allowed through VPN only,,,,,,
+"509 - Does the VPN server have Multi-factor Authentication (MFA) enabled for remote workers?
+If No, describe reasoning why MFA is not implemented and any compensating controls
+If N/A, elaborate why this is not applicable. No access to VPN should be required for the service.",Yes,MFA is enabled,,,,,,
+"510 - Is there a Data Loss Prevention (DLP) process in place and does it use a risk based approach?
+If YES: Describe the DLP and technical controls implemented.
+If NO: Provide the business justification and/or identify any compensating controls.
+if N/A: Elaborate why this is not applicable.",Yes,,Data Loss Prevention Policy attached.,,,,,

@@ -1,0 +1,143 @@
+DD Activity,"Respones
+(Y/N)
+if answered No, this may trigger a GAP",Comments,"Supporting Documentation 
+File name, page number and section that meets DD requirement
+do not embed documents within this file",Tags
+"Privacy Program - Policy
+Do you have a Privacy Program / Policy and/or processes or documents that ensures  that AXP Data Protection and Privacy Principles are addressed, as relevant: collection, notice and processing, choice, data quality, security & confidentiality, data sharing, openness & data access, international transfer, responsibility and accountability. ",Yes,,Data Access Policy/Privacy Policy (https://hungerbox.com/privacy-policy.html),Privacy
+"Privacy Program - Training
+Do you have a Privacy Program / Policy and/or processes or documents that ensures that third parties handling AXP Personal Data are either 
+1.)  taking AXP's Privacy training, or 
+2.) providing Privacy training to their employees
+",Yes,,"Data Access Policy, Acceptable Use Policy, Security Awareness and Training Policy, Privacy Policy (https://hungerbox.com/privacy-policy.html)",Privacy
+"Privacy Program - Ongoing Monitoring
+Do you have a Privacy Program / Policy and/or processes or documents that ensures that compliance with existing and changes to Privacy laws and regulations, as necessary?",Yes,,Privacy Policy (https://hungerbox.com/privacy-policy.html),Privacy
+"Privacy Program - Accountability
+Do you have a Privacy Program / Policy and/or processes or documents that ensures that the Third Party has designated appropriate resource(s) responsible for Data Protection/Privacy? Provide and review evidence (e.g.. organizational charts, job descriptions, and/or a letter from senior management on company letterhead stating the name of the individual that is responsible for Data Protection/Privacy at the Third Party (e.g. Chief Privacy Officer (CPO)).",Yes,,Privacy Policy (https://hungerbox.com/privacy-policy.html),Privacy
+"Notice & Processing 
+Do you collect personal data offline/online? 
+
+If Offline, provide a copy of the notice/disclosure provided by the Third Party to customers that data may be shared.
+
+If Online, provide a copy of the Third Party’s Online Privacy Statement (OPS) and ensure it discloses that the third party may share data. If applicable, obtain a copy of any other disclosure notice provided by the Third Party to the customers noting that data may be shared. 
+
+If applicable, market specific notices or OPS should be provided. ",Yes,,Privacy policy (https://hungerbox.com/privacy-policy.html) is available on HungerBox application,Privacy
+"Notice & Processing 
+Do you (the Third Party) collect personal data from your own customer or via other sources and shares it with AXP? 
+
+If Yes, provide evidence of any Notice / disclosure language provided to the customers that shows that the customers have provided consent for the sharing of their Personal Data.","No, PII information collected from users is not shared with AMEX",,,Privacy
+"Notice & Processing 
+Do you (the Third Party) purchase or access personal data that it is reselling/repurposing and providing it to AXP?
+
+If Yes, provide the list of sources from which the Third Party has purchased or accessed the personal data. Provide evidence of documentation / contract between the Third Party and the data sources that allows the Third Party to resell / repurpose the data.",No,,,Privacy
+"CHOICE:
+Please gather and provide process flows confirming the following with their Privacy SME and the AXP EPCC (Enterprise Privacy Choice Capability) team to determine whether Third Party system used to collect/capture and/or honor/manage privacy choice (IF CHOICE CAPTURED/HONORED BY THE THIRD PARTY, TRM TO ALSO CONFIRM) are compliant with AXP choice standards. 
+BU TRM to confirm with Privacy SME and EPCC teams to ensure third parties are capturing and/or honoring choice requirements. ",,,,Privacy
+"Openness and Data Access 
+Do you (Third Party) have a mechanism in place for customers to submit requests and receive information about how their Personal Data is processed and their rights and remedies including processes and system capabilities to fulfill data subject requests, including but not limited to, requests or access, erasure, rectification, data portability, to restrict processing and to object to automated individual decision-making.",Yes,,DSR Procedure,Privacy
+"International Transfer 
+For international transfers, TRM to  collect information from third party about any transfer mechanisms used to address cross border transfers of Personal Data (e.g., Binding Corporate Rules, model contracts) and ensure that transfer mechanism is appropriate for each cross border transfer. ",,,,Privacy
+"Data Flow:
+TRM to obtain from the business and submit the data flows to show what data is being shared, where is it going to/from, how is it being shared, what is source of record, what are record retention periods.",,,,Privacy
+Data Deletion:  TRM to provide Third Party's Data Deletion Policy to verify that it complies with the Data Quality and Data Deletion requirements as per AXP Data Protection and Privacy Principles. This includes the retention schedule and disposal of personal data.,Yes,,Data sanitisation and destruction policy,Privacy
+"Data Breaches - TRM to provide Third Party's data breach notification policy / process to confirm that the business has a process for identifying who will be notified (including relevant law enforcement agency), when and how data subjects will be notified, what actions can data subjects take and how data subjects can reach relevant contacts within the Third Party. If available, a copy of the Third Party's breach notification letter/template should be provided.",Yes,,Incident Management Policy,Privacy
+,,,,
+,,,,
+"Compliance Policy: Third-party's Compliance Policy which should establish the framework for identifying, assessing, controlling, measuring, testing, monitoring, and reporting compliance risks, and potential compliance risks, as well as ensuring that there is a culture of compliance, employees are trained on compliance matters and there is regulatory oversight.",,,,Compliance
+Legal Inventory: Third-Party's Legal Inventory process to ensure there is awareness of the laws that impact the Third-Party and a process to communicate such awareness to the staff,,,,Compliance
+"Compliance Monitoring and Testing or Audits:  Obtain the Third-Party’s Compliance Monitoring and Testing procedures. The documentation or evidence provided needs to demonstrate that the Third-Party has a framework for identifying, assessing and reporting compliance risks. 
+
+Compliance Audits: List of internal Compliance audits or external regulatory reviews related to the service provided to AXP and Results of Audits. ",,"If Compliance Audits are provided, the documentation must include: A list of Internal/External Compliance Audits and Results in the prior 12 months.
+Note:  SSAE 16, SOC1/2, reports are NOT acceptable to satisfy this activity. We are looking for Compliance audits which clearly identify Compliance controls are tested and reviewed",,Compliance
+"Third-Party’s Compliance Call Monitoring procedures:
+The Third-Party should provide their “monitoring” procedures/policy to ensure that all interactions with customers are compliant with legal/regulatory requirements",,,,Compliance
+Third-Party’s Complaint Handling procedures:  The policy should ensure the Third-Party has procedures in place to receive and track complaints. The third-party should provide documented Complaint Handling Procedures (including escalations).,,,,Compliance
+"Customer Fairness (Consumer Protection/Anti Discrimination Program) 
+The Third-Party must provide a documented Customer Fairness Program that outlines consumer protection and how all credit product decisions and services are provided to all current and future customers without discrimination.",,,,Compliance
+Third-Party’s Record Retention policy and procedures:  Policy to ensure that records and documents are adequately protected and maintained and at the same time ensure that records that are no longer required are discarded at the proper time,,,,Compliance
+"Third-Party’s incentive program description/documentation, policy should include adherence of the Third-Party’s incentive program to regulatory requirements. Paramount to this evaluation is determining if the incentive program for representatives includes penalties for poor performance including Compliance issues.",,,,Compliance
+Third-Party’s Training Program and curriculum,,,,Compliance
+"Current Inventory of relevant Service Market License(s) required by staff members to provide the service the  (i.e. business, state, local, agent, etc.",,,,Compliance
+"Is the Beneficial Owner a Government Official or Government Entity?
+",,,,Compliance
+"Is the Beneficial Owner a natural person or legal entity?
+",,,,Compliance
+"Beneficial Owner: Full Name of the natural person
+ OR
+ Full Legal name of Business Entity",,,,Compliance
+"If Beneficial Owner is Natural Person provide: Nationality
+OR
+If Beneficial Owner is Legal Entities provide: Country of Business Entity registration",,,,Compliance
+"If Beneficial Owner is Natural Person provide: Date of Birth or TX ID Number
+OR
+If Beneficial Owner is Legal Entities provide: TIN (if available)",,,,Compliance
+"If Beneficial Owner is Natural Person provide: Position
+
+OR
+
+If Beneficial Owner is Legal Entities provide: Doing Business As (DBA) Name (if applicable)",,,,Compliance
+"If Natural Person - Populate Home Address of the natural person 
+
+If Legal Entity - Populate Physical Address of the entity ",,,,Compliance
+,,,,
+,,,,
+Please provide a copy of the Third Party's Code of Conduct policy with documented rules and norms followed by employees,Yes,,Code of Conduct policy attached.,General Engagement and Subcontractor
+"Please provide a copy of the Third Party's valid business license(s) or industry certification(s), relevant to the services provided to American Express",Yes,,"ISO 27001 CERTIFICATE, PCI DSS certificate attached",General Engagement and Subcontractor
+Please provide a list of disputes; litigation or regulatory actions pending resolution.,,,,General Engagement and Subcontractor
+Please provide a copy of the Third Party's Incident Reporting and Media Management Policy,Yes,,Incident Management Policy attached,General Engagement and Subcontractor
+"Please provide a copy of the Third Party's Background Check Policy with a documented description of the process to perform background checks on employees; including the process to reject/terminate those who fail
+
+",Yes,,Background Check Policy attached.,General Engagement and Subcontractor
+Please provide a copy of the Third Party's Criminal Background Check Policy documentation,Yes,,Criminal Background Check Policy attached.,General Engagement and Subcontractor
+Please provide a copy of the Third Party's Supplier Management  Policy or Program,,,,General Engagement and Subcontractor
+"Does the Supplier/third party Management Policy/Program include pre-contract due diligence inclusive of financial health assessment, risk assessment, information security and compliance?",,,,General Engagement and Subcontractor
+Does the Supplier/third party Management Policy/Program require executed contracts with suppliers?,,,,General Engagement and Subcontractor
+"Does the Supplier/third party Management Policy/Program include ongoing monitoring of the Third Party's suppliers?
+",,,,General Engagement and Subcontractor
+"If there is an incentive compensation arrangement with the Fourth Party, does the policy indicate a process to review, approve and monitor the Fourth Party compensation?",,,,General Engagement and Subcontractor
+Does the third party have an executed contract with each of the Fourth Parties/subcontractors?,,,,General Engagement and Subcontractor
+"Please provide a documented description of the services that each of the Fourth Parties/Subcontractors provides to the Third Party, in support of the contractual obligation to AXP",,,,General Engagement and Subcontractor
+Please attach the process flow depicting the workflows/dataflow (that includes all applicable Fourth Parties)?,,,,General Engagement and Subcontractor
+Material Subcontractor Demographics,,,,General Engagement and Subcontractor
+,,,,
+,,,,
+"Do you have evidence of a Crisis Preparedness Program that includes the priorities established by the third party in the event of a business disruption or crisis.  
+
+If yes, Please attach.",,,,Resiliency
+"Do you have an Incident Response Plan which includes:
+A. evacuation procedures 
+B. who is responsible for communicating with local government agencies (police, fire, fire)
+C. the response to various incidents (bomb threat, workplace disturbance, injuries, etc.)
+D. and how the crisis will be managed until it is resolved. 
+
+Please attach your Incident Response Plan.",,,,Resiliency
+"Overview of Recovery Plans and Exercises:
+
+Please submit your Disaster Recovery and Business Continuity Plans. 
+These will need to include:
+
+A. Frequency of plan updates
+B. Description of exercises
+C. Exercise Results to include, if applicable, proof that the recovery time objectives of the application(s) were met. 
+D. How gaps identified during these exercises were resolved.",,,,Resiliency
+"Do you have a top-level Business Continuity, Operational Resilience, or other relevant policy which covers Business Continuity Management, and has it been reviewed/approved by management in the last 12 months?
+
+Please Attach Evidence",,,,Resiliency
+,,,,
+,,,,
+"Are the most recent 3 years audited financial statements for the contracted entity and the annual contracted spend available? 
+If yes, attach statements.",,,,FHA
+"Are the most recent 3 years audited financial statements for the parent entity of the contracted entity and the annual contracted spend available? If yes, attach statements.",,,,FHA
+Do the parent and contracted (subsidiary) entities share the same name?,,,,FHA
+Are the parent and subsidiary in the same line of business?,,,,FHA
+Does the contracted entity contribute a significant amount of revenue to the combined parent total?  Please state the % contribution.,,,,FHA
+Is the subsidiary profitable and does it have strong cash flows?,,,,FHA
+Is the subsidiary strategically important to the plans of the parent?,,,,FHA
+Has the parent entity demonstrated financial support for the contracted entity in the past?,,,,FHA
+Do the parent and subsidiary entities have the same or shared management?,,,,FHA
+Is the subsidiary majority-owned by the parent company? What is the ownership %?,,,,FHA
+Are there any legal guarantees that the parent company will support the subsidiary?,,,,FHA
+Please share the annual contracted exposure amount for the contracted entity.,,,,FHA
+,,,,
+,,,,
+Please refer to the Anti-Corruption Program Due Diligence Questionnaire in the Square. Click here to be redirected to the page.,,,,ACDD
